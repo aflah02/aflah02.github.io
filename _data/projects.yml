@@ -5,19 +5,19 @@
   role: USVSN Sai Prashanth, Alvin Deng, Kyle O'Brien, Jyothir S V, <i>Mohammad Aflah Khan</i>, Jaydeep Borkar, Christopher A. Choquette-Choo, Jacob Ray Fuehne, Stella Biderman, Tracy Ke, Katherine Lee, Naomi Saphra
   duration: 2025
   url: https://arxiv.org/abs/2406.17746
-  description: The Thirteenth International Conference on Learning Representations (ICLR 2025)
+  description: ICLR 2025 - The Thirteenth International Conference on Learning Representations
 
 - project: "Towards Reliable Latent Knowledge Estimation in LLMs: Zero-Prompt Many-Shot Based Factual Knowledge Extraction"
   role: Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Soumi Das, Vedant Nanda, Bishwamittra Ghosh, Camila Kolling, Till Speicher, Laurent Bindschaedler, Krishna P Gummadi, Evimaria Terzi
   duration: 2025
   url: https://arxiv.org/abs/2404.12957
-  description: The 18th ACM International Conference on Web Search and Data Mining (ACM WSDM 2025)
+  description: WSDM 2025 - Proceedings of the 18th ACM International Conference on Web Search and Data Mining
 
 - project: "QUENCH: Measuring the gap between Indic and Non-Indic Contextual General Reasoning in LLMs"
   role: <i>Mohammad Aflah Khan</i>*, Neemesh Yadav*, Sarah Masud, Md Shad Akhtar
   duration: 2025
   url: https://aclanthology.org/2025.coling-main.303/
-  description: The 31st International Conference on Computational Linguistics (COLING 2025)
+  description: COLING 2025 - Proceedings of the 31st International Conference on Computational Linguistics
 
 - project: "Revisiting Privacy, Utility, and Efficiency Trade-offs when Fine-Tuning Large Language Models"
   role: Soumi Das, Camila Kolling, <i>Mohammad Aflah Khan</i>, Mahsa Amani, Bishwamittra Ghosh, Qinyuan Wu, Till Speicher, Krishna P. Gummadi
@@ -35,46 +35,46 @@
   role: <i>Mohammad Aflah Khan</i>*, Neemesh Yadav*, Diksha Sethi*, Raghav Sahni*
   duration: 2024
   url: https://openreview.net/forum?id=r6QZ8YKSBd
-  description: The Second Tiny Papers Track at Eleventh International Conference on Learning Representations (ICLR)
+  description: The Second Tiny Papers Track at ICLR 2024
   
 - project: Probing Critical Learning Dynamics of PLMs for Hate Speech Detection
   role: Sarah Masud*, <i>Mohammad Aflah Khan</i>*, Vikram Goyal, Md Shad Akhtar, Tanmoy Chakraborty
   duration: 2024
   url: https://arxiv.org/abs/2402.02144
-  description: Proceedings of The 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL)
+  description: EACL 2024 - Findings of the Association for Computational Linguistics
 
 - project: "Overview of the HASOC Subtracks at FIRE 2023: Detection of Hate Spans and Conversational Hate-Speech"
   role: Shrey Satapara, Sarah Masud, Hiren Madhu, <i>Mohammad Aflah Khan</i>, Md Shad Akhtar, Tanmoy Chakraborty, Sandip Modha, Thomas Mandl
   duration: 2023
   url: https://dl.acm.org/doi/abs/10.1145/3632754.3633277
-  description: "Proceedings of the 15th Annual Meeting of the Forum for Information Retrieval Evaluation (FIRE)"
+  description: "FIRE 2023 - Proceedings of the 15th Annual Meeting of the Forum for Information Retrieval Evaluation"
 
 - project: "Overview of the HASOC Subtrack at FIRE 2023: Identification of Tokens Contributing to Explicit Hate in English by Span Detection"
   role: Sarah Masud, <i>Mohammad Aflah Khan</i>, Md. Shad Akhtar, Tanmoy Chakraborty
   duration: 2023
   url: https://arxiv.org/abs/2311.09834
-  description: "Proceedings of the 15th Annual Meeting of the Forum for Information Retrieval Evaluation (FIRE)"
+  description: "In Working Notes of FIRE 2023 - Forum for Information Retrieval Evaluation"
 
 - project: "Pythia:  A Suite for Analyzing Large Language Models Across Training and Scaling"
   role: Stella Biderman, Hailey Schoelkopf, Quentin Gregory Anthony, Herbie Bradley, Kyle O’Brien, Eric Hallahan, <i>Mohammad Aflah Khan</i>, Shivanshu Purohit, USVSN Sai Prashanth, Edward Raff, Aviya Skowron, Lintang Sutawika, Oskar van der Wal
   duration: 2023
   url: https://arxiv.org/abs/2304.01373
-  description: Proceedings of The 40th International Conference on Machine Learning (ICML)
+  description: ICML 2023 - The Fortieth International Conference on Machine Learning
 
 - project: "The Art of Embedding Fusion: Optimizing Hate Speech Detection"
   role: <i>Mohammad Aflah Khan</i>*, Neemesh Yadav*, Mohit Jain, Sanyam Goyal
   duration: 2023
   url: https://arxiv.org/abs/2306.14939
-  description: The First Tiny Papers Track at Eleventh International Conference on Learning Representations (ICLR)
+  description: The First Tiny Papers Track at ICLR 2023
 
 - project: "Beyond Negativity: Re-Analysis and Follow-Up Experiments on Hope Speech Detection"
   role: Neemesh Yadav*, <i>Mohammad Aflah Khan</i>*, Diksha Sethi, Raghav Sahni
   duration: 2023
   url: https://arxiv.org/abs/2306.01742
-  description: The First Tiny Papers Track at Eleventh International Conference on Learning Representations (ICLR)
+  description: The First Tiny Papers Track at ICLR 2023
 
 - project: "Proactively Reducing the Hate Intensity of Online Posts via Hate Speech Normalization"
   role: Sarah Masud, Manjot Bedi, <i>Mohammad Aflah Khan</i>, Md Shad Akhtar, Tanmoy Chakraborty
   duration: 2022
   url: https://arxiv.org/abs/2206.04007
-  description: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 
+  description: KDD 2022 - Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining
