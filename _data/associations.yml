@@ -1,13 +1,13 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
-- organization: "Max Planck Institute for Software Systems: MPI-SWS (Part of AICS Initiative)"
-  role: "An Overview of DeepSeek-{V3/R1}"
+- organization: "Max Planck Institute for Software Systems: MPI-SWS (Part of AI, Computing & Society Initiative)"
+  role: "[Talk] An Overview of DeepSeek-{V3/R1}"
   year: February, 2025
   url: https://docs.google.com/presentation/d/1oYpeD5_qOU05KM7lSSQHQuLVYLNFAx1xaJEfrrrCGBs/edit?usp=sharing
 
 - organization: "Max Planck Institute for Security and Privacy: MPI-SP (Hosted by Meeyoung Cha)"
-  role: "Democratizing and Accelerating Research with LLMs: Making Science More Accessible Whilst Finding Interesting Research Problems"
+  role: "[Talk] Democratizing and Accelerating Research with LLMs: Making Science More Accessible Whilst Finding Interesting Research Problems"
   year: December 2024
   url: 
 
@@ -27,7 +27,7 @@
   url: https://sigcse2024.sigcse.org/
 
 - organization: "Max Planck Institute for Software Systems: MPI-SWS (Hosted by Krishna Gummadi)"
-  role: "Talk on Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"
+  role: "[Talk] Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"
   year: July, 2023
 
 - organization: 19th International Conference on Natural Language Processing (ICON)
