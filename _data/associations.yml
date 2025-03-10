@@ -1,6 +1,11 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
+- organization: The First Workshop on Large Language Model Memorization (L2M2) @ ACL'25
+  role: Program Committee Member
+  year: 2025
+  url: https://sites.google.com/view/memorization-workshop/
+
 - organization: "Max Planck Institute for Software Systems: MPI-SWS (Part of AI, Computing & Society Initiative)"
   role: "[Talk] An Overview of DeepSeek-{V3/R1}"
   year: February, 2025
@@ -16,14 +21,14 @@
   year: 2023 Onwards
   url: 
 
+- organization: "Max Planck Institute for Software Systems: MPI-SWS (Hosted by Krishna Gummadi)"
+  role: "[Talk] Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"
+  year: July, 2023
+
 - organization: "FIRE HASOC Task 3: Identification of Tokens Contributing to Explicit Hate in Text by Span Detection"
   role: Organizer
   year: 2023
   url: https://lcs2.in/hatenorm-2023/
-
-- organization: "Max Planck Institute for Software Systems: MPI-SWS (Hosted by Krishna Gummadi)"
-  role: "[Talk] Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"
-  year: July, 2023
 
 - organization: 19th International Conference on Natural Language Processing (ICON)
   role: Volunteer
