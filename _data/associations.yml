@@ -12,7 +12,7 @@
   url: 
 
 - organization: ARR, WOAH, SIGCSE TS
-  role: Reviewer
+  role: Served as a reviewer for the above mentioned conferences
   year: 2023 Onwards
   url: 
 
@@ -20,11 +20,6 @@
   role: Organizer
   year: 2023
   url: https://lcs2.in/hatenorm-2023/
-
-- organization: The Technical Symposium on Computer Science Education (SIGCSE TS)
-  role: Reviewer
-  year: 2023
-  url: https://sigcse2024.sigcse.org/
 
 - organization: "Max Planck Institute for Software Systems: MPI-SWS (Hosted by Krishna Gummadi)"
   role: "[Talk] Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"
