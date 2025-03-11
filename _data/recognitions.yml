@@ -1,19 +1,24 @@
 # Recognitions
+- award: "Featured in the EleutherAI Community Spotlight"
+  organization: "EleutherAI"
+  year: September, 2023
+  url: https://blog.eleuther.ai/contributor-spotlight-1/
+
 - award: Selected for Amazon ML Summer School
   organization: Amazon
   year: 2022
 
-- award: Finalist
-  organization: Anveshan Hackathon
-  year: 2022
+# - award: Finalist
+#   organization: Anveshan Hackathon
+#   year: 2022
 
-- award: Runner-Up
-  organization: Byld Hackathon
-  year: 2021
+# - award: Runner-Up
+#   organization: Byld Hackathon
+#   year: 2021
 
-- award: Runner-Up
-  organization: Association for Computing Machinery (ACM) IIITD Induction Ideathon
-  year: 2021
+# - award: Runner-Up
+#   organization: Association for Computing Machinery (ACM) IIITD Induction Ideathon
+#   year: 2021
 
 - award: All India Rank 491
   organization: JEE Mains Paper 2

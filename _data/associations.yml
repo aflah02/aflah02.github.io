@@ -21,10 +21,10 @@
   year: December, 2024
   url: 
 
-- organization: "EleutherAI"
-  role: "Featured in the EleutherAI Community Spotlight"
-  year: September, 2023
-  url: https://blog.eleuther.ai/contributor-spotlight-1/
+# - organization: "EleutherAI"
+#   role: "Featured in the EleutherAI Community Spotlight"
+#   year: September, 2023
+#   url: https://blog.eleuther.ai/contributor-spotlight-1/
 
 - organization: ACL Rolling Review (ARR), International Conference on Computational Linguistics (COLING), Workshop on Online Abuse and Harms (WOAH), The Technical Symposium on Computer Science Education (SIGCSE TS)
   role: Served as a reviewer for the above mentioned conferences
