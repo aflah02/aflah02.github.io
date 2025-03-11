@@ -13,10 +13,15 @@
 
 - organization: "Max Planck Institute for Security and Privacy: MPI-SP (Hosted by Meeyoung Cha)"
   role: "[Talk] Democratizing and Accelerating Research with LLMs: Making Science More Accessible Whilst Finding Interesting Research Problems"
-  year: December 2024
+  year: December, 2024
   url: 
 
-- organization: ACL Rolling Review (ARR), Workshop on Online Abuse and Harms (WOAH), The Technical Symposium on Computer Science Education (SIGCSE TS)
+- organization: "AI, Computing & Society Initiative Launch Event (At Max Planck Institute for Software Systems: MPI-SWS)"
+  role: "[Demo + Lightning Talk] Empowering Research with Open-Access LLMs: From Tools to Copilots"
+  year: December, 2024
+  url: 
+
+- organization: ACL Rolling Review (ARR), International Conference on Computational Linguistics (COLING), Workshop on Online Abuse and Harms (WOAH), The Technical Symposium on Computer Science Education (SIGCSE TS)
   role: Served as a reviewer for the above mentioned conferences
   year: 2023 Onwards
   url: 
