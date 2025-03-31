@@ -16,6 +16,16 @@
   year: December, 2024
   url: 
 
+- organization: "Max Planck Institute for Software Systems: MPI-SWS (Internal Paper Reading Group)"
+  role: "[Paper Reading & Discussion] Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language Models Using Only Attention Maps"
+  year: July, 2024
+  url: https://docs.google.com/presentation/d/1-bSdsC0vip5J2dG3zpRcQimUCvspblg52q1BJO0uCFs/edit?usp=sharing
+
+- organization: "Max Planck Institute for Software Systems: MPI-SWS (Internal Paper Reading Group)"
+  role: "[Paper Reading & Discussion] Deduplicating Training Data Makes Language Models Better"
+  year: May, 2024
+  url: https://docs.google.com/presentation/d/1Nl87ZYPgtFBeTa7rhk-pHm1GO-TwYcyQKyqd7AVOumI/edit?usp=sharing
+
 - organization: "Max Planck Institute for Software Systems: MPI-SWS (Hosted by Krishna Gummadi)"
   role: "[Talk] Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"
   year: July, 2023
