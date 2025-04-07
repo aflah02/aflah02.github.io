@@ -1,6 +1,10 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
+- organization: "Max Planck Institute for the Science of Light (Hosted by Florian Marquardt)"
+  role: "[Talk] LLMs at Scale"
+  year: April, 2025
+
 - organization: "Max Planck Institute for Software Systems: MPI-SWS (Part of AI, Computing & Society Initiative)"
   role: "[Talk] An Overview of DeepSeek-{V3/R1}"
   year: February, 2025
