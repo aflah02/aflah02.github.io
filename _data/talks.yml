@@ -3,10 +3,12 @@
 - organization: "Max Planck Computing and Data Facility: MPCDF (AI Kick-off Workshop)"
   role: "[Talk] LLMs at Scale"
   year: April, 2025
+  organization2: "Max Planck Institute for Software Systems: MPI-SWS (AI Kick-off Workshop)"
+  year2: April, 2025
 
-- organization: "Max Planck Institute for the Science of Light (Hosted by Florian Marquardt)"
-  role: "[Talk] LLMs at Scale"
-  year: April, 2025
+# - organization: "Max Planck Institute for the Science of Light (Hosted by Florian Marquardt)"
+#   role: "[Talk] LLMs at Scale"
+#   year: April, 2025
 
 - organization: "Max Planck Institute for Software Systems: MPI-SWS (Part of AI, Computing & Society Initiative)"
   role: "[Talk] An Overview of DeepSeek-{V3/R1}"
@@ -39,6 +41,6 @@
   organization2: "Goldman Sachs (Internal NLP/IR Reading Group)"
   year2: June, 2023
 
-- organization: "Goldman Sachs (Internal NLP/IR Reading Group)"
-  role: "[Talk] Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"
-  year: June, 2023
+# - organization: "Goldman Sachs (Internal NLP/IR Reading Group)"
+#   role: "[Talk] Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"
+#   year: June, 2023

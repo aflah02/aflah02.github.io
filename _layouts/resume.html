@@ -171,7 +171,9 @@
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a target="_blank"  href="{{ association.url }}">{{ association.role }}</a>{% else %}{{ association.role }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ association.organization }} &bull; {{ association.year }}</h4>
-          <h4 class="resume-item-details" itemprop="description">{{ association.organization2 }} &bull; {{ association.year }}</h4>
+          {% if association.organization2 %}
+            <h4 class="resume-item-details" itemprop="description">{{ association.organization2 }} &bull; {{ association.year2 }}</h4>
+          {% endif %}
           <p class="resume-item-copy">{{ association.summary }}</p>
         </div>
         {% endfor %}
