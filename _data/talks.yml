@@ -2,45 +2,45 @@
 # comment out the urls if you do not wish to display them
 - venue1: "Max Planck Computing and Data Facility: MPCDF (AI Kick-off Workshop)"
   title: "[Talk] LLMs at Scale"
-  year: April, 2025
+  year1: April, 2025
   venue2: "Max Planck Institute for the Science of Light (Hosted by Florian Marquardt)"
   year2: April, 2025
 
 # - venue1: "Max Planck Institute for the Science of Light (Hosted by Florian Marquardt)"
 #   title: "[Talk] LLMs at Scale"
-#   year: April, 2025
+#   year1: April, 2025
 
 - venue1: "Max Planck Institute for Software Systems: MPI-SWS (Part of AI, Computing & Society Initiative)"
   title: "[Talk] An Overview of DeepSeek-{V3/R1}"
-  year: February, 2025
+  year1: February, 2025
   url: https://docs.google.com/presentation/d/1oYpeD5_qOU05KM7lSSQHQuLVYLNFAx1xaJEfrrrCGBs/edit?usp=sharing
 
 - venue1: "Max Planck Institute for Security and Privacy: MPI-SP (Hosted by Meeyoung Cha)"
   title: "[Talk] Democratizing and Accelerating Research with LLMs: Making Science More Accessible Whilst Finding Interesting Research Problems"
-  year: December, 2024
+  year1: December, 2024
   url: 
 
 - venue1: "AI, Computing & Society Initiative Launch Event (At Max Planck Institute for Software Systems: MPI-SWS)"
   title: "[Demo + Lightning Talk] Empowering Research with Open-Access LLMs: From Tools to Copilots"
-  year: December, 2024
+  year1: December, 2024
   url: 
 
 - venue1: "Max Planck Institute for Software Systems: MPI-SWS (Internal Paper Reading Group)"
   title: "[Paper Reading & Discussion] Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language Models Using Only Attention Maps"
-  year: July, 2024
+  year1: July, 2024
   url: https://docs.google.com/presentation/d/1-bSdsC0vip5J2dG3zpRcQimUCvspblg52q1BJO0uCFs/edit?usp=sharing
 
 - venue1: "Max Planck Institute for Software Systems: MPI-SWS (Internal Paper Reading Group)"
   title: "[Paper Reading & Discussion] Deduplicating Training Data Makes Language Models Better"
-  year: May, 2024
+  year1: May, 2024
   url: https://docs.google.com/presentation/d/1Nl87ZYPgtFBeTa7rhk-pHm1GO-TwYcyQKyqd7AVOumI/edit?usp=sharing
 
 - venue1: "Max Planck Institute for Software Systems: MPI-SWS (Hosted by Krishna Gummadi)"
   title: "[Talk] Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"
-  year: July, 2023
+  year1: July, 2023
   venue2: "Goldman Sachs (Internal NLP/IR Reading Group)"
   year2: June, 2023
 
 # - venue1: "Goldman Sachs (Internal NLP/IR Reading Group)"
 #   title: "[Talk] Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling"
-#   year: June, 2023
+#   year1: June, 2023
