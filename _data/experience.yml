@@ -5,10 +5,9 @@
   duration: April, 2024 &mdash; Present [Full Time] | Nov, 2023 &mdash; March, 2024 [Part time]  | Aug, 2023 &mdash; Oct, 2023 [Intern]
   summary: Working under Dr Krishna Gummadi to explore different aspects of LLMs. Some areas we've explored/are exploring are	
     <ul class="resume-item-list">    
+      <li>Optimizing pre-training and inference for LLMs</li>
       <li>LLM memorization and the impact of Parameter-Efficient Fine-Tuning (PEFT) on memorization</li>
       <li>Knowledge acquisition and evaluation of factual knowledge in LLMs</li>
-      <li>Retrieval-Augmented Generation (RAG) architectures</li>
-      <li>Optimizing pre-training and inference for LLMs</li>
       <li>Built and currently maintain key internal tools OpenChat (An internal chatbot), MaxCast (A research paper-to-podcast conversion service) & MaxChat (A document-based chat service). These services were developed from scratch, including hosting models on-premises and fine-tuning for optimal performance.
       <li>Published and submitted research to top-tier (A*) conferences</li>
     </ul>
