@@ -1,0 +1,14 @@
+# Projects<i>
+# uncomment the urls if you wish to display them, and add your own URL
+
+- project: "Revisiting Privacy, Utility, and Efficiency Trade-offs when Fine-Tuning Large Language Models"
+  role: Soumi Das, Camila Kolling, <i>Mohammad Aflah Khan</i>, Mahsa Amani, Bishwamittra Ghosh, Qinyuan Wu, Till Speicher, Krishna P. Gummadi
+  duration:
+  url: https://arxiv.org/abs/2502.13313
+  description: Under Review
+
+- project: "Understanding the Mechanics and Dynamics of Memorisation in Large Language Models: A Case Study with Random Strings"
+  role: Till Speicher, <i>Mohammad Aflah Khan</i>, Qinyuan Wu, Vedant Nanda, Soumi Das, Bishwamittra Ghosh, Krishna P. Gummadi, Evimaria Terzi
+  duration:
+  url: https://openreview.net/forum?id=ILStlRb1Sp
+  description: Under Review

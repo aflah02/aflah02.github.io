@@ -1,0 +1,20 @@
+# Projects<i>
+# uncomment the urls if you wish to display them, and add your own URL
+
+- project: "Recite, Reconstruct, Recollect: Memorization in LMs as a Multifaceted Phenomenon"
+  role: USVSN Sai Prashanth, Alvin Deng, Kyle O'Brien, Jyothir S V, <i>Mohammad Aflah Khan</i>, Jaydeep Borkar, Christopher A. Choquette-Choo, Jacob Ray Fuehne, Stella Biderman, Tracy Ke, Katherine Lee, Naomi Saphra
+  duration: 2025
+  url: https://arxiv.org/abs/2406.17746
+  description: ICLR 2025 - The Thirteenth International Conference on Learning Representations
+
+- project: "Towards Reliable Latent Knowledge Estimation in LLMs: Zero-Prompt Many-Shot Based Factual Knowledge Extraction"
+  role: Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Soumi Das, Vedant Nanda, Bishwamittra Ghosh, Camila Kolling, Till Speicher, Laurent Bindschaedler, Krishna P Gummadi, Evimaria Terzi
+  duration: 2025
+  url: https://arxiv.org/abs/2404.12957
+  description: WSDM 2025 - Proceedings of the 18th ACM International Conference on Web Search and Data Mining
+
+- project: "QUENCH: Measuring the gap between Indic and Non-Indic Contextual General Reasoning in LLMs"
+  role: <i>Mohammad Aflah Khan</i>*, Neemesh Yadav*, Sarah Masud, Md Shad Akhtar
+  duration: 2025
+  url: https://aclanthology.org/2025.coling-main.303/
+  description: COLING 2025 - Proceedings of the 31st International Conference on Computational Linguistics
