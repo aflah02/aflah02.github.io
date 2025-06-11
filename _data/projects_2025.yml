@@ -18,3 +18,15 @@
   duration: 2025
   url: https://aclanthology.org/2025.coling-main.303/
   description: COLING 2025 - Proceedings of the 31st International Conference on Computational Linguistics
+
+- project: "Rethinking Memorization Measures in LLMs: Recollection vs. Counterfactual vs. Contextual Memorization"
+  role: Bishwamittra Ghosh, Soumi Das, Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Evimaria Terzi, Deepak Garg
+  duration: 2025
+  url:
+  description: MemFM @ ICML 2025 - The Impact of Memorization on Trustworthy Foundation Models
+
+- project: "Rote Learning Considered Useful: Generalizing over Memorized Data in LLMs"
+  role: Qinyuan Wu, Soumi Das, Mahsa Amani, Bishwamittra Ghosh, <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Muhammad Bilal Zafar 
+  duration: 2025
+  url:
+  description: MemFM @ ICML 2025 - The Impact of Memorization on Trustworthy Foundation Models
