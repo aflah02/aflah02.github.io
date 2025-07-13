@@ -1,12 +1,6 @@
 # Projects<i>
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: "In Agents We Trust, but Who Do Agents Trust? Latent Source Preferences Steer LLM Generations"
-  role: <i>Mohammad Aflah Khan</i>, Mahsa Amani, Soumi Das, Bishwamittra Ghosh, Qinyuan Wu, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander
-  duration:
-  url:
-  description: Under Review
-
 - project: "Revisiting Privacy, Utility, and Efficiency Trade-offs when Fine-Tuning Large Language Models"
   role: Soumi Das, Camila Kolling, <i>Mohammad Aflah Khan</i>, Mahsa Amani, Bishwamittra Ghosh, Qinyuan Wu, Till Speicher, Krishna P. Gummadi
   duration:
