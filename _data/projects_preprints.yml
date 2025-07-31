@@ -2,7 +2,7 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 - project: "TokenSmith: Streamlining Data Editing, Search, and Inspection for Large-Scale Language Model Training and Interpretability"
-  role: <i>Mohammad Aflah Khan</i>, Ameya Godbole, Johnny Tian-Zheng Wei, Ryan Wang, James Flemings, Krishna Gummadi, Willie Neiswanger, Robin Jia
+  role: <i>Mohammad Aflah Khan</i>*, Ameya Godbole*, Johnny Tian-Zheng Wei, Ryan Wang, James Flemings, Krishna Gummadi, Willie Neiswanger, Robin Jia
   duration: 
   url: https://arxiv.org/abs/2507.19419
   description: Under Review
