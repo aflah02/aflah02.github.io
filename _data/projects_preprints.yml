@@ -1,11 +1,7 @@
 # Projects<i>
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: "TokenSmith: Streamlining Data Editing, Search, and Inspection for Large-Scale Language Model Training and Interpretability"
-  role: <i>Mohammad Aflah Khan</i>*, Ameya Godbole*, Johnny Tian-Zheng Wei, Ryan Wang, James Flemings, Krishna Gummadi, Willie Neiswanger, Robin Jia
-  duration: 
-  url: https://arxiv.org/abs/2507.19419
-  description: Under Review
+
 
 - project: "Revisiting Privacy, Utility, and Efficiency Trade-offs when Fine-Tuning Large Language Models"
   role: Soumi Das, Camila Kolling, <i>Mohammad Aflah Khan</i>, Mahsa Amani, Bishwamittra Ghosh, Qinyuan Wu, Till Speicher, Krishna P. Gummadi

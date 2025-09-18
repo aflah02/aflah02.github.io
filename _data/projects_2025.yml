@@ -1,6 +1,12 @@
 # Projects<i>
 # uncomment the urls if you wish to display them, and add your own URL
 
+- project: "TokenSmith: Streamlining Data Editing, Search, and Inspection for Large-Scale Language Model Training and Interpretability"
+  role: <i>Mohammad Aflah Khan</i>*, Ameya Godbole*, Johnny Tian-Zheng Wei, Ryan Wang, James Flemings, Krishna Gummadi, Willie Neiswanger, Robin Jia
+  duration: 
+  url: https://arxiv.org/abs/2507.19419
+  description: EMNLP 2025 System Demonstrations - The 2025 Conference on Empirical Methods in Natural Language Processing
+
 - project: "Recite, Reconstruct, Recollect: Memorization in LMs as a Multifaceted Phenomenon"
   role: USVSN Sai Prashanth, Alvin Deng, Kyle O'Brien, Jyothir S V, <i>Mohammad Aflah Khan</i>, Jaydeep Borkar, Christopher A. Choquette-Choo, Jacob Ray Fuehne, Stella Biderman, Tracy Ke, Katherine Lee, Naomi Saphra
   duration: 2025
