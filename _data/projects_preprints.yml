@@ -10,13 +10,13 @@
 - project: "Hubble: a Model Suite to Advance the Study of LLM Memorization"
   role: Johnny Tian-Zheng Wei*, Ameya Godbole*, <i>Mohammad Aflah Khan</i>*, Ryan Wang, Xiaoyuan Zhu, James Flemings, Nitya Kashyap, Krishna P. Gummadi, Willie Neiswanger, Robin Jia
   duration:
-  url:
+  url: https://arxiv.org/abs/2510.19811
   description: Under Review
 
 - project: "In Agents We Trust, but Who Do Agents Trust? Latent Source Preferences Steer LLM Generations"
   role: <i>Mohammad Aflah Khan</i>, Mahsa Amani, Soumi Das, Bishwamittra Ghosh, Qinyuan Wu, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander
   duration:
-  url:
+  url: https://openreview.net/forum?id=yTUNl6jYGU
   description: Under Review (An earlier version of this work was presented at R2-FM, ICML 2025)
 
 - project: "Rote Learning Considered Useful: Generalizing over Memorized Data in LLMs"
