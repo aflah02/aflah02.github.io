@@ -1,0 +1,20 @@
+# Projects<i>
+# uncomment the urls if you wish to display them, and add your own URL
+
+- project: "In Agents We Trust, but Who Do Agents Trust? Latent Source Preferences Steer LLM Generations"
+  role: <i>Mohammad Aflah Khan</i>, Mahsa Amani, Soumi Das, Bishwamittra Ghosh, Qinyuan Wu, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander
+  duration:
+  url: 
+  description: IASEAI 2026 - The International Association for Safe & Ethical AI (An earlier version of this work was presented at R2-FM, ICML 2025)
+
+- project: "Rote Learning Considered Useful: Generalizing over Memorized Data in LLMs"
+  role: Qinyuan Wu, Soumi Das, Mahsa Amani, Bishwamittra Ghosh, <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Muhammad Bilal Zafar 
+  duration:
+  url: 
+  description: IASEAI 2026 - The International Association for Safe & Ethical AI (An earlier version of this work was presented at MemFM, ICML 2025)
+
+- project: "Revisiting Privacy, Utility, and Efficiency Trade-offs when Fine-Tuning Large Language Models"
+  role: Soumi Das, Camila Kolling, <i>Mohammad Aflah Khan</i>, Mahsa Amani, Bishwamittra Ghosh, Qinyuan Wu, Till Speicher, Krishna P. Gummadi
+  duration:
+  url: 
+  description: IASEAI 2026 - The International Association for Safe & Ethical AI
