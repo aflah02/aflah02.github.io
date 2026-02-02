@@ -5,7 +5,10 @@
   role: <i>Mohammad Aflah Khan</i>, Mahsa Amani, Soumi Das, Bishwamittra Ghosh, Qinyuan Wu, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander
   duration:
   url: 
-  description: ICLR 2026 - The Fourteenth International Conference on Learning Representations & IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival) (An earlier version of this work was presented at R2-FM, ICML 2025)
+  description: |
+    ICLR 2026 - The Fourteenth International Conference on Learning Representations
+    IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival)
+    (An earlier version of this work was presented at R2-FM, ICML 2025)
 
 - project: "Hubble: a Model Suite to Advance the Study of LLM Memorization"
   role: Johnny Tian-Zheng Wei*, Ameya Godbole*, <i>Mohammad Aflah Khan</i>*, Ryan Wang, Xiaoyuan Zhu, James Flemings, Nitya Kashyap, Krishna P. Gummadi, Willie Neiswanger, Robin Jia
@@ -17,7 +20,10 @@
   role: Qinyuan Wu, Soumi Das, Mahsa Amani, Bishwamittra Ghosh, <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Muhammad Bilal Zafar 
   duration:
   url: 
-  description: ICLR 2026 - The Fourteenth International Conference on Learning Representations & IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival) (An earlier version of this work was presented at MemFM, ICML 2025)
+  description: |
+    ICLR 2026 - The Fourteenth International Conference on Learning Representations
+    IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival)
+    (An earlier version of this work was presented at MemFM, ICML 2025)
 
 - project: "Revisiting Privacy, Utility, and Efficiency Trade-offs when Fine-Tuning Large Language Models"
   role: Soumi Das, Camila Kolling, <i>Mohammad Aflah Khan</i>, Mahsa Amani, Bishwamittra Ghosh, Qinyuan Wu, Till Speicher, Krishna P. Gummadi
