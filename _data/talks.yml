@@ -1,6 +1,11 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
+- title: "An Overview of AlphaFold" 
+  venue1: "Max Planck Institute for Software Systems: MPI-SWS (Internal Paper Reading Group)"
+  year1: February, 2026
+  url: https://docs.google.com/presentation/d/1TtHQsi4_MCwOfnHfTJhLdM3C1baB8Ue2_b9TnMQ_KQs/edit?usp=sharing
+
 - title: "[Paper Reading & Discussion] Metadata Conditioning Accelerates Language Model Pre-training (MeCo)" 
   venue1: "Max Planck Institute for Software Systems: MPI-SWS (Internal Paper Reading Group)"
   year1: September, 2025
