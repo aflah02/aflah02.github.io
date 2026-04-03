@@ -17,7 +17,7 @@
     Press/Other Coverage
     [
     {% for entry in include.project.press %}
-    <a target="_blank" href="{{ entry[1] }}" class="paper-resource-link">{{ forloop.index }}</a>{% if forloop.last == false %}, {% endif %}
+    <a target="_blank" href="{{ entry[1] }}" class="paper-resource-link">{{ entry[0] }}</a>{% if forloop.last == false %}, {% endif %}
     {% endfor %}
     ]
   </span>
