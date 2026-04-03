@@ -127,6 +127,7 @@
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
+          {% include paper-resources.html project=project %}
         </div>
         {% endfor %}
 
@@ -138,6 +139,7 @@
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
+          {% include paper-resources.html project=project %}
         </div>
         {% endfor %}
 
@@ -149,6 +151,7 @@
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
+          {% include paper-resources.html project=project %}
         </div>
         {% endfor %}
 
@@ -160,6 +163,7 @@
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
+          {% include paper-resources.html project=project %}
         </div>
         {% endfor %}
 
@@ -171,6 +175,7 @@
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
+          {% include paper-resources.html project=project %}
         </div>
         {% endfor %}
 
@@ -182,6 +187,7 @@
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
+          {% include paper-resources.html project=project %}
         </div>
         {% endfor %}
 
