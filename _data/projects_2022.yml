@@ -4,5 +4,6 @@
 - project: "Proactively Reducing the Hate Intensity of Online Posts via Hate Speech Normalization"
   role: Sarah Masud, Manjot Bedi, <i>Mohammad Aflah Khan</i>, Md Shad Akhtar, Tanmoy Chakraborty
   duration: 2022
+  type: main
   url: https://arxiv.org/abs/2206.04007
   description: KDD 2022 - Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining

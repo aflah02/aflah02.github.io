@@ -4,42 +4,48 @@
 - project: "TokenSmith: Streamlining Data Editing, Search, and Inspection for Large-Scale Language Model Training and Interpretability"
   role: <i>Mohammad Aflah Khan</i>*, Ameya Godbole*, Johnny Tian-Zheng Wei, Ryan Wang, James Flemings, Krishna Gummadi, Willie Neiswanger, Robin Jia
   duration: 2025
+  type: main
   url: https://arxiv.org/abs/2507.19419
   description: EMNLP 2025 System Demonstrations - The 2025 Conference on Empirical Methods in Natural Language Processing
 
 - project: "Recite, Reconstruct, Recollect: Memorization in LMs as a Multifaceted Phenomenon"
   role: USVSN Sai Prashanth, Alvin Deng, Kyle O'Brien, Jyothir S V, <i>Mohammad Aflah Khan</i>, Jaydeep Borkar, Christopher A. Choquette-Choo, Jacob Ray Fuehne, Stella Biderman, Tracy Ke, Katherine Lee, Naomi Saphra
   duration: 2025
+  type: main
   url: https://arxiv.org/abs/2406.17746
   description: ICLR 2025 - The Thirteenth International Conference on Learning Representations
 
 - project: "Towards Reliable Latent Knowledge Estimation in LLMs: Zero-Prompt Many-Shot Based Factual Knowledge Extraction"
   role: Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Soumi Das, Vedant Nanda, Bishwamittra Ghosh, Camila Kolling, Till Speicher, Laurent Bindschaedler, Krishna P Gummadi, Evimaria Terzi
   duration: 2025
+  type: main
   url: https://arxiv.org/abs/2404.12957
   description: WSDM 2025 - Proceedings of the 18th ACM International Conference on Web Search and Data Mining
 
 - project: "QUENCH: Measuring the gap between Indic and Non-Indic Contextual General Reasoning in LLMs"
   role: <i>Mohammad Aflah Khan</i>*, Neemesh Yadav*, Sarah Masud, Md Shad Akhtar
   duration: 2025
+  type: main
   url: https://aclanthology.org/2025.coling-main.303/
   description: COLING 2025 - Proceedings of the 31st International Conference on Computational Linguistics
 
 - project: "In Agents We Trust, but Who Do Agents Trust? Latent Source Preferences Steer LLM Generations"
   role: <i>Mohammad Aflah Khan</i>, Mahsa Amani, Soumi Das, Bishwamittra Ghosh, Qinyuan Wu, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander
   duration:
+  type: workshop
   url: https://openreview.net/forum?id=oZMisPPggL
   description: R2-FM @ ICML 2025 - Workshop on Reliable and Responsible Foundation Models (Non-Archival)
 
 - project: "Rethinking Memorization Measures in LLMs: Recollection vs. Counterfactual vs. Contextual Memorization"
   role: Bishwamittra Ghosh, Soumi Das, Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Evimaria Terzi, Deepak Garg
   duration: 2025
+  type: workshop
   url: https://openreview.net/forum?id=c6nqmjfG1Y
   description: MemFM @ ICML 2025 - The Impact of Memorization on Trustworthy Foundation Models (Non-Archival)
 
 - project: "Rote Learning Considered Useful: Generalizing over Memorized Data in LLMs"
-  role: Qinyuan Wu, Soumi Das, Mahsa Amani, Bishwamittra Ghosh, <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Muhammad Bilal Zafar 
+  role: Qinyuan Wu, Soumi Das, Mahsa Amani, Bishwamittra Ghosh, <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Muhammad Bilal Zafar
   duration: 2025
+  type: workshop
   url: https://openreview.net/forum?id=vNOA396J3q
   description: MemFM @ ICML 2025 - The Impact of Memorization on Trustworthy Foundation Models (Non-Archival)
-

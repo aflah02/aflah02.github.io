@@ -4,29 +4,34 @@
 - project: "Overview of the HASOC Subtracks at FIRE 2023: Detection of Hate Spans and Conversational Hate-Speech"
   role: Shrey Satapara, Sarah Masud, Hiren Madhu, <i>Mohammad Aflah Khan</i>, Md Shad Akhtar, Tanmoy Chakraborty, Sandip Modha, Thomas Mandl
   duration: 2023
+  type: main
   url: https://dl.acm.org/doi/abs/10.1145/3632754.3633277
   description: "FIRE 2023 - Proceedings of the 15th Annual Meeting of the Forum for Information Retrieval Evaluation"
 
 - project: "Overview of the HASOC Subtrack at FIRE 2023: Identification of Tokens Contributing to Explicit Hate in English by Span Detection"
   role: Sarah Masud, <i>Mohammad Aflah Khan</i>, Md. Shad Akhtar, Tanmoy Chakraborty
   duration: 2023
+  type: workshop
   url: https://arxiv.org/abs/2311.09834
   description: "In Working Notes of FIRE 2023 - Forum for Information Retrieval Evaluation"
 
 - project: "Pythia:  A Suite for Analyzing Large Language Models Across Training and Scaling"
-  role: Stella Biderman, Hailey Schoelkopf, Quentin Gregory Anthony, Herbie Bradley, Kyle O’Brien, Eric Hallahan, <i>Mohammad Aflah Khan</i>, Shivanshu Purohit, USVSN Sai Prashanth, Edward Raff, Aviya Skowron, Lintang Sutawika, Oskar van der Wal
+  role: Stella Biderman, Hailey Schoelkopf, Quentin Gregory Anthony, Herbie Bradley, Kyle O'Brien, Eric Hallahan, <i>Mohammad Aflah Khan</i>, Shivanshu Purohit, USVSN Sai Prashanth, Edward Raff, Aviya Skowron, Lintang Sutawika, Oskar van der Wal
   duration: 2023
+  type: main
   url: https://arxiv.org/abs/2304.01373
   description: "[Oral] ICML 2023 - The Fortieth International Conference on Machine Learning"
 
 - project: "The Art of Embedding Fusion: Optimizing Hate Speech Detection"
   role: <i>Mohammad Aflah Khan</i>*, Neemesh Yadav*, Mohit Jain, Sanyam Goyal
   duration: 2023
+  type: workshop
   url: https://arxiv.org/abs/2306.14939
   description: The First Tiny Papers Track at ICLR 2023
 
 - project: "Beyond Negativity: Re-Analysis and Follow-Up Experiments on Hope Speech Detection"
   role: Neemesh Yadav*, <i>Mohammad Aflah Khan</i>*, Diksha Sethi, Raghav Sahni
   duration: 2023
+  type: workshop
   url: https://arxiv.org/abs/2306.01742
   description: The First Tiny Papers Track at ICLR 2023

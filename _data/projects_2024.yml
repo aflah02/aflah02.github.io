@@ -4,11 +4,13 @@
 - project: "The Duality of Hope: A Critical Examination of Controversial Annotations in HopeEDI"
   role: <i>Mohammad Aflah Khan</i>*, Neemesh Yadav*, Diksha Sethi*, Raghav Sahni*
   duration: 2024
+  type: workshop
   url: https://openreview.net/forum?id=r6QZ8YKSBd
   description: The Second Tiny Papers Track at ICLR 2024
-  
+
 - project: Probing Critical Learning Dynamics of PLMs for Hate Speech Detection
   role: Sarah Masud*, <i>Mohammad Aflah Khan</i>*, Vikram Goyal, Md Shad Akhtar, Tanmoy Chakraborty
   duration: 2024
+  type: main
   url: https://arxiv.org/abs/2402.02144
   description: EACL 2024 - Findings of the Association for Computational Linguistics
