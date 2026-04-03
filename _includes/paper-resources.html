@@ -1,7 +1,7 @@
 {% if include.project.website or include.project.github or include.project.huggingface or include.project.wandb_report or include.project.press %}
 <div class="paper-resources">
   {% if include.project.website %}
-  <a target="_blank" href="{{ include.project.website }}" class="paper-resource-link" title="Website">{% include icons/icon-website.html %}</a>
+  <a target="_blank" href="{{ include.project.website }}" class="paper-resource-link" title="Website">{% include icons/icon-paper-webpage.html %}</a>
   {% endif %}
   {% if include.project.github %}
   <a target="_blank" href="{{ include.project.github }}" class="paper-resource-link" title="GitHub">{% include icons/icon-github.html %}</a>
