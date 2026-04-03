@@ -20,6 +20,8 @@
   duration: 2023
   type: main
   is_featured: true
+  github: https://github.com/EleutherAI/pythia
+  huggingface: https://huggingface.co/collections/EleutherAI/pythia-scaling-suite
   url: https://arxiv.org/abs/2304.01373
   description: "[Oral] ICML 2023 - The Fortieth International Conference on Machine Learning"
   press:
