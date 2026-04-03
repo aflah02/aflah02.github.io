@@ -264,21 +264,23 @@
     align-items: center;
     padding: 0.3rem;
     border-radius: 4px;
-    background-color: #f0f0f0;
     transition: background-color 0.2s ease;
 
     &:hover {
-      background-color: #e0e0e0;
+      background-color: rgba(0, 0, 0, 0.08);
     }
 
-    .icon {
+    svg {
       width: 20px;
       height: 20px;
+    }
+
+    svg path {
       fill: #333;
     }
 
-    .hf-logo,
-    .wandb-logo {
+    img.hf-logo,
+    img.wandb-logo {
       width: 20px;
       height: 20px;
     }
