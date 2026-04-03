@@ -4,7 +4,7 @@
 - project: "Overview of the HASOC Subtracks at FIRE 2023: Detection of Hate Spans and Conversational Hate-Speech"
   role: Shrey Satapara, Sarah Masud, Hiren Madhu, <i>Mohammad Aflah Khan</i>, Md Shad Akhtar, Tanmoy Chakraborty, Sandip Modha, Thomas Mandl
   duration: 2023
-  type: main
+  type: workshop
   url: https://dl.acm.org/doi/abs/10.1145/3632754.3633277
   description: "FIRE 2023 - Proceedings of the 15th Annual Meeting of the Forum for Information Retrieval Evaluation"
 
@@ -19,6 +19,7 @@
   role: Stella Biderman, Hailey Schoelkopf, Quentin Gregory Anthony, Herbie Bradley, Kyle O'Brien, Eric Hallahan, <i>Mohammad Aflah Khan</i>, Shivanshu Purohit, USVSN Sai Prashanth, Edward Raff, Aviya Skowron, Lintang Sutawika, Oskar van der Wal
   duration: 2023
   type: main
+  is_featured: true
   url: https://arxiv.org/abs/2304.01373
   description: "[Oral] ICML 2023 - The Fortieth International Conference on Machine Learning"
 

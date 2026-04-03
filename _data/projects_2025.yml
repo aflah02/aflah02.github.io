@@ -6,6 +6,7 @@
   duration: 2025
   type: main
   url: https://arxiv.org/abs/2507.19419
+  is_featured: true
   description: EMNLP 2025 System Demonstrations - The 2025 Conference on Empirical Methods in Natural Language Processing
 
 - project: "Recite, Reconstruct, Recollect: Memorization in LMs as a Multifaceted Phenomenon"

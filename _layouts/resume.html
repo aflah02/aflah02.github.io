@@ -87,8 +87,14 @@
         <!-- Publication Filters -->
         <div class="publication-filters no-print">
           <div class="filter-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="featured-filter" checked>
+              Featured Only
+            </label>
+          </div>
+          <div class="filter-group">
             <label for="year-filter">Year:</label>
-            <select id="year-filter">
+            <select id="year-filter" disabled>
               <option value="all">All</option>
               <option value="2026">2026</option>
               <option value="2025">2025</option>
@@ -99,7 +105,7 @@
           </div>
           <div class="filter-group">
             <label for="type-filter">Paper Type:</label>
-            <select id="type-filter">
+            <select id="type-filter" disabled>
               <option value="all">All</option>
               <option value="main">Main Conference</option>
               <option value="workshop">Workshop & Extended Abstract</option>
@@ -107,7 +113,7 @@
           </div>
           <div class="filter-group">
             <label class="checkbox-label">
-              <input type="checkbox" id="preprints-filter" checked>
+              <input type="checkbox" id="preprints-filter" disabled checked>
               Show Preprints
             </label>
           </div>
@@ -116,7 +122,7 @@
         <!-- 2026 Publications -->
         {% for project in site.data.projects_2026 %}
         <div class="resume-item publication-item" itemscope itemtype="http://schema.org/CreativeWork"
-             data-year="2026" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}">
+             data-year="2026" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}" data-featured="{% if project.is_featured %}true{% else %}false{% endif %}">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
@@ -127,7 +133,7 @@
         <!-- Preprints -->
         {% for project in site.data.projects_preprints %}
         <div class="resume-item publication-item" itemscope itemtype="http://schema.org/CreativeWork"
-             data-year="preprint" data-type="preprint" data-preprint="true">
+             data-year="preprint" data-type="preprint" data-preprint="true" data-featured="false">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
@@ -138,7 +144,7 @@
         <!-- 2025 Publications -->
         {% for project in site.data.projects_2025 %}
         <div class="resume-item publication-item" itemscope itemtype="http://schema.org/CreativeWork"
-             data-year="2025" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}">
+             data-year="2025" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}" data-featured="{% if project.is_featured %}true{% else %}false{% endif %}">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
@@ -149,7 +155,7 @@
         <!-- 2024 Publications -->
         {% for project in site.data.projects_2024 %}
         <div class="resume-item publication-item" itemscope itemtype="http://schema.org/CreativeWork"
-             data-year="2024" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}">
+             data-year="2024" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}" data-featured="{% if project.is_featured %}true{% else %}false{% endif %}">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
@@ -160,7 +166,7 @@
         <!-- 2023 Publications -->
         {% for project in site.data.projects_2023 %}
         <div class="resume-item publication-item" itemscope itemtype="http://schema.org/CreativeWork"
-             data-year="2023" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}">
+             data-year="2023" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}" data-featured="{% if project.is_featured %}true{% else %}false{% endif %}">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
@@ -171,7 +177,7 @@
         <!-- 2022 Publications -->
         {% for project in site.data.projects_2022 %}
         <div class="resume-item publication-item" itemscope itemtype="http://schema.org/CreativeWork"
-             data-year="2022" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}">
+             data-year="2022" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}" data-featured="{% if project.is_featured %}true{% else %}false{% endif %}">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
@@ -363,30 +369,43 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
+        const featuredCheckbox = document.getElementById('featured-filter');
         const yearFilter = document.getElementById('year-filter');
         const typeFilter = document.getElementById('type-filter');
         const preprintsCheckbox = document.getElementById('preprints-filter');
         const publications = document.querySelectorAll('.publication-item');
 
         function filterPublications() {
+          const showFeaturedOnly = featuredCheckbox.checked;
           const selectedYear = yearFilter.value;
           const selectedType = typeFilter.value;
           const showPreprints = preprintsCheckbox.checked;
+
+          // Enable/disable other filters based on featured checkbox
+          yearFilter.disabled = showFeaturedOnly;
+          typeFilter.disabled = showFeaturedOnly;
+          preprintsCheckbox.disabled = showFeaturedOnly;
 
           publications.forEach(function(pub) {
             const pubYear = pub.getAttribute('data-year');
             const pubType = pub.getAttribute('data-type');
             const isPreprint = pub.getAttribute('data-preprint') === 'true';
+            const isFeatured = pub.getAttribute('data-featured') === 'true';
 
             let show = true;
 
-            // Year filter
-            if (selectedYear !== 'all' && pubYear !== selectedYear) {
+            // Featured filter (applies first)
+            if (showFeaturedOnly && !isFeatured) {
               show = false;
             }
 
-            // Type filter
-            if (selectedType !== 'all') {
+            // Year filter (only if not showing featured only)
+            if (show && !showFeaturedOnly && selectedYear !== 'all' && pubYear !== selectedYear) {
+              show = false;
+            }
+
+            // Type filter (only if not showing featured only)
+            if (show && !showFeaturedOnly && selectedType !== 'all') {
               if (selectedType === 'main' && pubType !== 'main') {
                 show = false;
               } else if (selectedType === 'workshop' && pubType !== 'workshop') {
@@ -394,8 +413,8 @@
               }
             }
 
-            // Preprints filter
-            if (!showPreprints && isPreprint) {
+            // Preprints filter (only if not showing featured only)
+            if (show && !showFeaturedOnly && !showPreprints && isPreprint) {
               show = false;
             }
 
@@ -403,9 +422,13 @@
           });
         }
 
+        featuredCheckbox.addEventListener('change', filterPublications);
         yearFilter.addEventListener('change', filterPublications);
         typeFilter.addEventListener('change', filterPublications);
         preprintsCheckbox.addEventListener('change', filterPublications);
+
+        // Initial filter on page load
+        filterPublications();
       });
     </script>
 

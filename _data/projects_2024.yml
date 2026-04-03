@@ -14,3 +14,10 @@
   type: main
   url: https://arxiv.org/abs/2402.02144
   description: EACL 2024 - Findings of the Association for Computational Linguistics
+
+- project: "Understanding the Mechanics and Dynamics of Memorisation in Large Language Models: A Case Study with Random Strings"
+  role: Till Speicher, <i>Mohammad Aflah Khan</i>, Qinyuan Wu, Vedant Nanda, Soumi Das, Bishwamittra Ghosh, Krishna P. Gummadi, Evimaria Terzi
+  duration: 2024
+  type: preprint
+  url: https://openreview.net/forum?id=ILStlRb1Sp
+  description:

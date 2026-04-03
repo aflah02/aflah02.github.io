@@ -1,16 +1,4 @@
 # Projects<i>
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: "Fractional Rotation, Full Potential? Investigating Performance and Convergence of Partial RoPE"
-  role: <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander
-  duration: 2026
-  url: https://arxiv.org/abs/2603.11611
-  type: preprint
-  description: Under Review
 
-- project: "Understanding the Mechanics and Dynamics of Memorisation in Large Language Models: A Case Study with Random Strings"
-  role: Till Speicher, <i>Mohammad Aflah Khan</i>, Qinyuan Wu, Vedant Nanda, Soumi Das, Bishwamittra Ghosh, Krishna P. Gummadi, Evimaria Terzi
-  duration:
-  type: preprint
-  url: https://openreview.net/forum?id=ILStlRb1Sp
-  description:
