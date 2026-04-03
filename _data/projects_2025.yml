@@ -15,6 +15,7 @@
   role: USVSN Sai Prashanth, Alvin Deng, Kyle O'Brien, Jyothir S V, <i>Mohammad Aflah Khan</i>, Jaydeep Borkar, Christopher A. Choquette-Choo, Jacob Ray Fuehne, Stella Biderman, Tracy Ke, Katherine Lee, Naomi Saphra
   duration: 2025
   type: main
+  github: https://github.com/EleutherAI/semantic-memorization
   url: https://arxiv.org/abs/2406.17746
   description: ICLR 2025 - The Thirteenth International Conference on Learning Representations
 
@@ -22,6 +23,7 @@
   role: Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Soumi Das, Vedant Nanda, Bishwamittra Ghosh, Camila Kolling, Till Speicher, Laurent Bindschaedler, Krishna P Gummadi, Evimaria Terzi
   duration: 2025
   type: main
+  github: https://github.com/QinyuanWu0710/ZeroPrompt_LKE
   url: https://arxiv.org/abs/2404.12957
   description: WSDM 2025 - Proceedings of the 18th ACM International Conference on Web Search and Data Mining
 
@@ -29,6 +31,7 @@
   role: <i>Mohammad Aflah Khan</i>*, Neemesh Yadav*, Sarah Masud, Md Shad Akhtar
   duration: 2025
   type: main
+  github: https://github.com/aflah02/QUENCH
   url: https://aclanthology.org/2025.coling-main.303/
   description: COLING 2025 - Proceedings of the 31st International Conference on Computational Linguistics
 
@@ -36,6 +39,7 @@
   role: <i>Mohammad Aflah Khan</i>, Mahsa Amani, Soumi Das, Bishwamittra Ghosh, Qinyuan Wu, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander
   duration:
   type: workshop
+  github: https://github.com/aflah02/LLM-Latent-Source-Preferences/tree/ICML-R2-FM
   url: https://openreview.net/forum?id=oZMisPPggL
   description: R2-FM @ ICML 2025 - Workshop on Reliable and Responsible Foundation Models (Non-Archival)
 
@@ -50,5 +54,6 @@
   role: Qinyuan Wu, Soumi Das, Mahsa Amani, Bishwamittra Ghosh, <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Muhammad Bilal Zafar
   duration: 2025
   type: workshop
+  github: https://github.com/QinyuanWu0710/memorize-then-generalize
   url: https://openreview.net/forum?id=vNOA396J3q
   description: MemFM @ ICML 2025 - The Impact of Memorization on Trustworthy Foundation Models (Non-Archival)

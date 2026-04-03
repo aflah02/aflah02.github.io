@@ -6,6 +6,7 @@
   duration: 2024
   type: workshop
   url: https://openreview.net/forum?id=r6QZ8YKSBd
+  github: https://github.com/aflah02/HopeEDI-Fix
   description: The Second Tiny Papers Track at ICLR 2024
 
 - project: Probing Critical Learning Dynamics of PLMs for Hate Speech Detection
@@ -13,6 +14,7 @@
   duration: 2024
   type: main
   url: https://arxiv.org/abs/2402.02144
+  github: https://github.com/LCS2-IIITD/HateFinetune
   description: EACL 2024 - Findings of the Association for Computational Linguistics
 
 - project: "Understanding the Mechanics and Dynamics of Memorisation in Large Language Models: A Case Study with Random Strings"

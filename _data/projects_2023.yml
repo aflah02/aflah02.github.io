@@ -33,12 +33,14 @@
   role: <i>Mohammad Aflah Khan</i>*, Neemesh Yadav*, Mohit Jain, Sanyam Goyal
   duration: 2023
   type: workshop
+  github: https://github.com/aflah02/The-Art-of-Embedding-Fusion-Optimizing-Hate-Speech-Detection
   url: https://arxiv.org/abs/2306.14939
   description: The First Tiny Papers Track at ICLR 2023
 
 - project: "Beyond Negativity: Re-Analysis and Follow-Up Experiments on Hope Speech Detection"
   role: Neemesh Yadav*, <i>Mohammad Aflah Khan</i>*, Diksha Sethi, Raghav Sahni
   duration: 2023
+  github: https://github.com/aflah02/hope_speech_detection
   type: workshop
   url: https://arxiv.org/abs/2306.01742
   description: The First Tiny Papers Track at ICLR 2023
