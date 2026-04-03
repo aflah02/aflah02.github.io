@@ -306,6 +306,21 @@
   }
 }
 
+// Publication URL line above author names
+.publication-url {
+  margin: 0.25rem 0;
+  font-size: 0.8rem;
+
+  a {
+    color: #007acc;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 // Filter tooltip for disabled controls
 .filter-tooltip {
   position: relative;

@@ -125,6 +125,7 @@
              data-year="2026" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}" data-featured="{% if project.is_featured %}true{% else %}false{% endif %}">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          {% if project.url %}<p class="publication-url"><a target="_blank" href="{{ project.url }}">{{ project.url }}</a></p>{% endif %}
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
           {% include paper-resources.html project=project %}
@@ -137,6 +138,7 @@
              data-year="preprint" data-type="preprint" data-preprint="true" data-featured="false">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          {% if project.url %}<p class="publication-url"><a target="_blank" href="{{ project.url }}">{{ project.url }}</a></p>{% endif %}
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
           {% include paper-resources.html project=project %}
@@ -149,6 +151,7 @@
              data-year="2025" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}" data-featured="{% if project.is_featured %}true{% else %}false{% endif %}">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          {% if project.url %}<p class="publication-url"><a target="_blank" href="{{ project.url }}">{{ project.url }}</a></p>{% endif %}
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
           {% include paper-resources.html project=project %}
@@ -161,6 +164,7 @@
              data-year="2024" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}" data-featured="{% if project.is_featured %}true{% else %}false{% endif %}">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          {% if project.url %}<p class="publication-url"><a target="_blank" href="{{ project.url }}">{{ project.url }}</a></p>{% endif %}
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
           {% include paper-resources.html project=project %}
@@ -173,6 +177,7 @@
              data-year="2023" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}" data-featured="{% if project.is_featured %}true{% else %}false{% endif %}">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          {% if project.url %}<p class="publication-url"><a target="_blank" href="{{ project.url }}">{{ project.url }}</a></p>{% endif %}
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
           {% include paper-resources.html project=project %}
@@ -185,6 +190,7 @@
              data-year="2022" data-type="{{ project.type }}" data-preprint="{% if project.type == 'preprint' %}true{% else %}false{% endif %}" data-featured="{% if project.is_featured %}true{% else %}false{% endif %}">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a target="_blank"  href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          {% if project.url %}<p class="publication-url"><a target="_blank" href="{{ project.url }}">{{ project.url }}</a></p>{% endif %}
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
           <p class="resume-item-copy">{{ project.description | strip | newline_to_br }}</p>
           {% include paper-resources.html project=project %}
