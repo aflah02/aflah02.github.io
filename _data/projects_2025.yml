@@ -35,6 +35,7 @@
   type: main
   github: https://github.com/aflah02/QUENCH
   url: https://aclanthology.org/2025.coling-main.303/
+  slides: https://docs.google.com/presentation/d/1Q5DDrHVb0s83jYLs1ltY09iMCcI8Wczj/edit?usp=sharing&ouid=109643787717180222446&rtpof=true&sd=true
   description: COLING 2025 - Proceedings of the 31st International Conference on Computational Linguistics
 
 - project: "In Agents We Trust, but Who Do Agents Trust? Latent Source Preferences Steer LLM Generations"
