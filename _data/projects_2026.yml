@@ -10,6 +10,7 @@
   github: https://github.com/aflah02/LLM-Latent-Source-Preferences
   huggingface: https://huggingface.co/datasets/aflah/LLM-Latent-Preferences
   poster: https://docs.google.com/presentation/d/1baVEuGeTfAh0FYhx7fgJZyiSXKssnAVs9OPVABbzk3Y/edit?usp=sharing
+  slides: https://docs.google.com/presentation/d/1ul_DAnx3T-hILNswB8TtXn-P6dG7rFFc_M2ZH-wl0r8/edit?usp=sharing
   description: |
     ICLR 2026 - The Fourteenth International Conference on Learning Representations
     IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival)
@@ -44,6 +45,7 @@
   role: Soumi Das, Camila Kolling, <i>Mohammad Aflah Khan</i>, Mahsa Amani, Bishwamittra Ghosh, Qinyuan Wu, Till Speicher, Krishna P. Gummadi
   duration:
   url: https://arxiv.org/abs/2502.13313
+  poster: https://docs.google.com/presentation/d/11jckJUapr_ux29MN-zUGxb75hNrt_blfLS2E3bXlfmA/edit?usp=sharing
   type: main
   description: IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival)
 
