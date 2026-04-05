@@ -1,4 +1,4 @@
-{% if include.project.website or include.project.github or include.project.huggingface or include.project.wandb_report or include.project.poster or include.project.slides or include.project.press %}
+{% if include.project.website or include.project.github or include.project.huggingface or include.project.wandb_report or include.project.poster or include.project.slides or include.project.talk or include.project.press %}
 <div class="paper-resources">
   {% if include.project.website %}
   <a target="_blank" href="{{ include.project.website }}" class="paper-resource-link" title="Website">{% include icons/icon-paper-webpage.html %}</a>
@@ -17,6 +17,9 @@
   {% endif %}
   {% if include.project.slides %}
   <a target="_blank" href="{{ include.project.slides }}" class="paper-resource-link" title="Slides">{% include icons/icon-slides.html %}</a>
+  {% endif %}
+  {% if include.project.talk %}
+  <a target="_blank" href="{{ include.project.talk }}" class="paper-resource-link" title="{% if include.project.talk_speaker %}Talk by {{ include.project.talk_speaker }}{% else %}Talk{% endif %}">{% include icons/icon-talk.html %}</a>
   {% endif %}
   {% if include.project.press %}
   <span class="paper-resource-press">

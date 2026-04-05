@@ -27,6 +27,8 @@
   url: https://arxiv.org/abs/2304.01373
   description: "[Oral] ICML 2023 - The Fortieth International Conference on Machine Learning"
   slides: https://docs.google.com/presentation/d/1VuNG0cZ-s0fuoed3atviDMV8yEkBvU1TE94N0SE09eU/edit?usp=sharing
+  talk: https://icml.cc/virtual/2023/oral/25487
+  talk_speaker: Stella Biderman
   press:
     KDNuggets: https://www.kdnuggets.com/2023/08/pythia-suite-16-llms-indepth-research.html
     HackerNews: https://news.ycombinator.com/item?id=35449559

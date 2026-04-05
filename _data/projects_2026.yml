@@ -11,6 +11,8 @@
   huggingface: https://huggingface.co/datasets/aflah/LLM-Latent-Preferences
   poster: https://docs.google.com/presentation/d/1baVEuGeTfAh0FYhx7fgJZyiSXKssnAVs9OPVABbzk3Y/edit?usp=sharing
   slides: https://docs.google.com/presentation/d/1ul_DAnx3T-hILNswB8TtXn-P6dG7rFFc_M2ZH-wl0r8/edit?usp=sharing
+  talk: https://youtu.be/cRWW2CtRAkk?list=PLm0-0gOxvDnTrCo2sOtZkDXXNLR_arZ5t&t=674
+  talk_speaker: Soumi Das
   description: |
     ICLR 2026 - The Fourteenth International Conference on Learning Representations
     IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival)
@@ -36,6 +38,8 @@
   url: https://openreview.net/forum?id=JpEZIM0qAZ
   github: https://github.com/QinyuanWu0710/memorize-then-generalize
   type: main
+  talk: https://youtu.be/RjVPIcmK2G8?t=1055
+  talk_speaker: Qinyuan Wu
   description: |
     ICLR 2026 - The Fourteenth International Conference on Learning Representations
     IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival)
@@ -47,6 +51,8 @@
   url: https://arxiv.org/abs/2502.13313
   poster: https://docs.google.com/presentation/d/11jckJUapr_ux29MN-zUGxb75hNrt_blfLS2E3bXlfmA/edit?usp=sharing
   type: main
+  talk: https://youtu.be/SHAlIY0Q3gI?list=PLm0-0gOxvDnTrCo2sOtZkDXXNLR_arZ5t&t=385
+  talk_speaker: Soumi Das
   description: IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival)
 
 - project: "Fractional Rotation, Full Potential? Investigating Performance and Convergence of Partial RoPE"
