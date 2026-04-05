@@ -6,6 +6,11 @@
   <li class="icon-link-item"><a target="_blank"  href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs" title="GitHub">{% include icons/icon-github.html %}</a></li>
   {% endif %}
 
+  <!-- BlueSky link -->
+  {% if site.resume_social_links.resume_bluesky_url %}
+  <li class="icon-link-item"><a target="_blank"  href="{{ site.resume_social_links.resume_bluesky_url }}" class="icon-link" itemprop="sameAs" title="BlueSky">{% include icons/icon-bluesky.html %}</a></li>
+  {% endif %}
+
   <!-- Twitter link -->
   {% if site.resume_social_links.resume_twitter_url %}
   <li class="icon-link-item"><a target="_blank"  href="{{ site.resume_social_links.resume_twitter_url }}" class="icon-link" itemprop="sameAs" title="Twitter">{% include icons/icon-twitter.html %}</a></li>
