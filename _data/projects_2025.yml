@@ -9,6 +9,7 @@
   is_featured: true
   github: https://github.com/aflah02/TokenSmith
   website: https://aflah02.github.io/TokenSmith/
+  poster: https://docs.google.com/presentation/d/1Gi5Bfc-Gkm0lsWJjbULxPMyRJMyXIH_pqv212u8MCVA/edit?usp=sharing
   description: EMNLP 2025 System Demonstrations - The 2025 Conference on Empirical Methods in Natural Language Processing
 
 - project: "Recite, Reconstruct, Recollect: Memorization in LMs as a Multifaceted Phenomenon"
@@ -17,6 +18,7 @@
   type: main
   github: https://github.com/EleutherAI/semantic-memorization
   url: https://arxiv.org/abs/2406.17746
+  poster: https://docs.google.com/presentation/d/1yWJHWYPsAl0DKpi0s3RuPBBeF8Eb4gdz/edit?usp=sharing&ouid=109643787717180222446&rtpof=true&sd=true
   description: ICLR 2025 - The Thirteenth International Conference on Learning Representations
 
 - project: "Towards Reliable Latent Knowledge Estimation in LLMs: Zero-Prompt Many-Shot Based Factual Knowledge Extraction"
