@@ -73,7 +73,7 @@
             </div>
             {% endfor %}
           </div>
-          <button id="news-toggle" class="news-toggle-btn no-print">Show {{ remaining }} more ▼</button>
+          <button id="news-toggle" class="news-toggle-btn no-print">Show more ▼</button>
           {% endif %}
         </div>
       </section>
@@ -477,7 +477,7 @@
           newsToggle.addEventListener('click', function() {
             const isExpanded = newsExpanded.style.display !== 'none';
             newsExpanded.style.display = isExpanded ? 'none' : 'block';
-            newsToggle.textContent = isExpanded ? 'Show {{ remaining }} more ▼' : 'Show less ▲';
+            newsToggle.textContent = isExpanded ? 'Show more ▼' : 'Show less ▲';
           });
         }
       });
