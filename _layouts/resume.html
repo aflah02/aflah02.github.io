@@ -52,6 +52,36 @@
 
       </header>
 
+      {% if site.resume_section_news %}
+      <!-- begin News -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Latest News</h2>
+        </header>
+        <div id="news-container">
+          {% for item in site.data.news limit: site.resume_news_count %}
+          <div class="resume-item news-item">
+            <p class="news-item-content">{% if item.url %}<a target="_blank" href="{{ item.url }}">{{ item.news }}</a>{% else %}{{ item.news }}{% endif %}</p>
+            <h4 class="resume-item-details">{{ item.date }}</h4>
+          </div>
+          {% endfor %}
+          {% if site.data.news.size > site.resume_news_count %}
+          {% assign remaining = site.data.news.size | minus: site.resume_news_count %}
+          <div id="news-expanded" style="display: none;">
+            {% for item in site.data.news offset: site.resume_news_count %}
+            <div class="resume-item news-item">
+              <p class="news-item-content">{% if item.url %}<a target="_blank" href="{{ item.url }}">{{ item.news }}</a>{% else %}{{ item.news }}{% endif %}</p>
+              <h4 class="resume-item-details">{{ item.date }}</h4>
+            </div>
+            {% endfor %}
+          </div>
+          <button id="news-toggle" class="news-toggle-btn no-print">Show {{ remaining }} more ▼</button>
+          {% endif %}
+        </div>
+      </section>
+      <!-- end News -->
+      {% endif %}
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -441,6 +471,17 @@
 
         // Initial filter on page load
         filterPublications();
+
+        // News expand/collapse
+        const newsToggle = document.getElementById('news-toggle');
+        const newsExpanded = document.getElementById('news-expanded');
+        if (newsToggle && newsExpanded) {
+          newsToggle.addEventListener('click', function() {
+            const isExpanded = newsExpanded.style.display !== 'none';
+            newsExpanded.style.display = isExpanded ? 'none' : 'block';
+            newsToggle.textContent = isExpanded ? 'Show {{ remaining }} more ▼' : 'Show less ▲';
+          });
+        }
       });
     </script>
 
