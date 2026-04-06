@@ -61,8 +61,7 @@
         <div id="news-container">
           {% for item in site.data.news limit: site.resume_news_count %}
           <div class="resume-item news-item">
-            <p class="news-item-content">{% if item.url %}<a target="_blank" href="{{ item.url }}">{{ item.news }}</a>{% else %}{{ item.news }}{% endif %}</p>
-            <h4 class="resume-item-details">{{ item.date }}</h4>
+            <p class="news-item-content compact-news">{% if item.url %}<a target="_blank" href="{{ item.url }}">{{ item.news }}</a>{% else %}{{ item.news }}{% endif %}</p>
           </div>
           {% endfor %}
           {% if site.data.news.size > site.resume_news_count %}
@@ -70,8 +69,7 @@
           <div id="news-expanded" style="display: none;">
             {% for item in site.data.news offset: site.resume_news_count %}
             <div class="resume-item news-item">
-              <p class="news-item-content">{% if item.url %}<a target="_blank" href="{{ item.url }}">{{ item.news }}</a>{% else %}{{ item.news }}{% endif %}</p>
-              <h4 class="resume-item-details">{{ item.date }}</h4>
+              <p class="news-item-content compact-news">{% if item.url %}<a target="_blank" href="{{ item.url }}">{{ item.news }}</a>{% else %}{{ item.news }}{% endif %}</p>
             </div>
             {% endfor %}
           </div>

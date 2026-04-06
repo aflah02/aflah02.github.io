@@ -350,6 +350,30 @@
   }
 }
 
+// News items
+.news-item {
+  margin-bottom: 0.5rem !important;
+
+  .compact-news {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.3;
+  }
+}
+
+.news-toggle-btn {
+  background: none;
+  border: none;
+  color: #007acc;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 @media print {
   .no-print { display: none !important }
   .print-only { display: block !important }
