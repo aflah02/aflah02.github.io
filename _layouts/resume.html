@@ -268,7 +268,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Other Involvements</h2>
+          <h2>Teaching</h2>
         </header>
 
         <div class="resume-item">
@@ -315,28 +315,28 @@
       
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
-      <section class="content-section">
+      <!-- <section class="content-section">
 
         <header class="section-header">
           <h2>Awards, Achievements, and Recognitions</h2>
-        </header>
+        </header> -->
 
         {% for recognition in site.data.recognitions %}
-        <div class="resume-item">
+        <!-- <div class="resume-item"> -->
           <!-- <a target="_blank"  href="{{ recognition.url }}" itemprop="url">{{ recognition.award }}</a> -->
-          <h3 class="resume-item-title" itemprop="award">{% if recognition.url %}<a target="_blank"  href="{{ recognition.url }}">{{ recognition.award }}</a>{% else %}{{ recognition.award }}{% endif %}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
-        </div>
+          <!-- <h3 class="resume-item-title" itemprop="award">{% if recognition.url %}<a target="_blank"  href="{{ recognition.url }}">{{ recognition.award }}</a>{% else %}{{ recognition.award }}{% endif %}</h3> -->
+          <!-- <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4> -->
+          <!-- <p class="resume-item-copy">{{ recognition.summary }}</p> -->
+        <!-- </div> -->
         {% endfor %}
 
-      </section>
+      <!-- </section> -->
       <!-- end Recognition -->
       {% endif %}
 
       {% if site.resume_section_interests %}
       <!-- begin Interests -->
-      <section class="content-section">
+      <!-- <section class="content-section">
 
         <header class="section-header">
           <h2>Outside Interests</h2>
@@ -350,7 +350,7 @@
           </ul>
         </div>
 
-      </section>
+      </section> -->
       <!-- end Interests -->
       {% endif %}
 
