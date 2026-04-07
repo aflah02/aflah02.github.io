@@ -60,7 +60,7 @@
 - project: "Fine-tuning vs. In-context Learning in Large Language Models: A Formal Language Learning Perspective"
   role: Bishwamittra Ghosh, Soumi Das, Till Speicher, Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Deepak Garg, Krishna P. Gummadi, Evimaria Terzi 
   type: main
-  description: ACL 2026 - The 64th Annual Meeting of the Association for Computational Linguistics
+  description: "[Oral] ACL 2026 - The 64th Annual Meeting of the Association for Computational Linguistics"
 
 - project: "Fractional Rotation, Full Potential? Investigating Performance and Convergence of Partial RoPE"
   role: <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander
