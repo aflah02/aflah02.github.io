@@ -58,9 +58,15 @@
   talk_speaker: Soumi Das
   description: IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival)
 
+- project: "Position: Don't Just \"Fix it in Post\": A Science of AI Must Study Learning Dynamics"
+  role: Stella Biderman, <i>Mohammad Aflah Khan</i>, Niloofar Mireshghallah, Catherine Arnett, Fazl Barez, Naomi Saphra 
+  type: main
+  description: "[Spotlight] ICML 2026 (Position Paper Track) - Forty-Third International Conference on Machine Learning"
+
 - project: "Fine-tuning vs. In-context Learning in Large Language Models: A Formal Language Learning Perspective"
   role: Bishwamittra Ghosh, Soumi Das, Till Speicher, Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Deepak Garg, Krishna P. Gummadi, Evimaria Terzi 
   type: main
+  url: https://arxiv.org/abs/2604.23267
   description: "[Oral] ACL 2026 - The 64th Annual Meeting of the Association for Computational Linguistics"
 
 - project: "Fractional Rotation, Full Potential? Investigating Performance and Convergence of Partial RoPE"
