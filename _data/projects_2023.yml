@@ -22,6 +22,7 @@
   duration: 2023
   type: main
   is_featured: true
+  is_oral: true
   github: https://github.com/EleutherAI/pythia
   huggingface: https://huggingface.co/collections/EleutherAI/pythia-scaling-suite
   url: https://arxiv.org/abs/2304.01373
