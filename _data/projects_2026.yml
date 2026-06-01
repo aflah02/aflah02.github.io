@@ -29,6 +29,8 @@
   huggingface: https://huggingface.co/allegrolab/collections
   website: https://allegro-lab.github.io/hubble/
   wandb_report: https://wandb.ai/usc_and_mpi/Hubble/reports/Project-Overview--VmlldzoxMjA1Mjk0MA?accessToken=m57r8yl6x6hhlbd8rxed6w2qnxc5dtzbi8z8g7irkzzj6slckzni7kydatkkg2uh
+  talk: https://slideslive.com/39062059/hubble-a-model-suite-to-advance-the-study-of-llm-memorization
+  talk_speaker: Johnny Tian-Zheng Wei & Mohammad Aflah Khan
   description: |
     [Oral] ICLR 2026 - The Fourteenth International Conference on Learning Representations
     Data-FM @ ICLR 2026 - Workshop on Navigating and Addressing Data Problems for Foundation Models (Non-Archival)
