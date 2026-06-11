@@ -65,8 +65,11 @@
   role: Stella Biderman, <i>Mohammad Aflah Khan</i>, Niloofar Mireshghallah, Catherine Arnett, Fazl Barez, Naomi Saphra 
   type: main
   is_oral: true
-  description: "[Oral] ICML 2026 (Position Paper Track) - Forty-Third International Conference on Machine Learning"
-
+  url: https://arxiv.org/abs/2606.06533
+  description: |
+    [Oral] ICML 2026 (Position Paper Track) - Forty-Third International Conference on Machine Learning
+    Mechanistic Interpretability Workshop @ ICML 2026 (Non-Archival)
+ 
 - project: "Fine-tuning vs. In-context Learning in Large Language Models: A Formal Language Learning Perspective"
   role: Bishwamittra Ghosh, Soumi Das, Till Speicher, Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Deepak Garg, Krishna P. Gummadi, Evimaria Terzi 
   type: main
