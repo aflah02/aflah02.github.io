@@ -2,7 +2,7 @@
 
 - company: Max Planck Institute for Software Systems (MPI-SWS)
   position: Research Software Engineer
-  duration: April, 2024 &mdash; Present [Full Time] | Nov, 2023 &mdash; March, 2024 [Part time]  | Aug, 2023 &mdash; Oct, 2023 [Intern]
+  duration: April, 2024 &mdash; Present [Full Time] | Nov, 2023 &mdash; March, 2024 [Part Time]  | Aug, 2023 &mdash; Oct, 2023 [Intern]
   summary: Working under Dr Krishna Gummadi to explore different aspects of LLMs. Some areas we've explored/are exploring are	
     <ul class="resume-item-list">    
       <li>Optimizing pre-training and inference for LLMs</li>
@@ -13,8 +13,11 @@
     </ul>
 
 - company: EleutherAI
-  position: Open Source Contributor
-  duration:  Dec, 2022 &mdash; Present
+  roles:
+    - position: Research Scientist
+      duration: June, 2026 &mdash; Present
+    - position: Open Source Contributor [Part Time]
+      duration: Dec, 2022 &mdash; June, 2026
   summary: Currently working on the Multilingual Natural Instructions project to build a massive instruction tuning corpus for Hindi. Previously worked on - 
     <ul class="resume-item-list">    
       <li>Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling (Accepted ICML'23) - Majorly contributed to the gender bias evals and intervention case study. The models have over 18 million downloads (as of April 2025)</li>
@@ -37,4 +40,3 @@
   duration: May, 2022 &mdash; Sept, 2022
   summary: Worked with Matthew Watson & Chen Qian towards adding support for data augmentation layers to KerasNLP a library under the Keras/TensorFlow Ecosystem which aims to build industry oriented NLP Solutions. I also contributed to several bug fixes and other utilities such as tokenizers and transformer encoder & decoder.
   
-
