@@ -11,8 +11,11 @@
   huggingface: https://huggingface.co/datasets/aflah/LLM-Latent-Preferences
   poster: https://docs.google.com/presentation/d/1baVEuGeTfAh0FYhx7fgJZyiSXKssnAVs9OPVABbzk3Y/edit?usp=sharing
   slides: https://docs.google.com/presentation/d/1ul_DAnx3T-hILNswB8TtXn-P6dG7rFFc_M2ZH-wl0r8/edit?usp=sharing
-  talk: https://youtu.be/cRWW2CtRAkk?list=PLm0-0gOxvDnTrCo2sOtZkDXXNLR_arZ5t&t=674
-  talk_speaker: Soumi Das
+  talks:
+    - url: https://youtu.be/cRWW2CtRAkk?list=PLm0-0gOxvDnTrCo2sOtZkDXXNLR_arZ5t&t=674
+      speaker: Soumi Das
+    - url: https://www.youtube.com/watch?v=AfuBDT8as5g
+      speaker: Manish Gupta
   description: |
     ICLR 2026 - The Fourteenth International Conference on Learning Representations
     IASEAI 2026 - The International Association for Safe & Ethical AI (Non-Archival)
