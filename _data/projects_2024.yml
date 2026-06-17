@@ -15,6 +15,11 @@
   type: main
   url: https://arxiv.org/abs/2402.02144
   github: https://github.com/LCS2-IIITD/HateFinetune
+  talks:
+    - url: https://www.youtube.com/watch?v=edGD7zlfwhE
+      speaker: Sarah Masud
+    - url: https://aclanthology.org/2024.findings-eacl.55.mp4
+      speaker: Sarah Masud
   description: EACL 2024 - Findings of the Association for Computational Linguistics
 
 - project: "Understanding the Mechanics and Dynamics of Memorisation in Large Language Models: A Case Study with Random Strings"
