@@ -6,9 +6,9 @@
   year: 2025
   url: https://sites.google.com/view/memorization-workshop/
 
-- organization: International Conference on Learning Representations (ICLR), ACL Rolling Review (ARR), Workshop on Large Language Model Memorization (L2M2), International Conference on Computational Linguistics (COLING), Workshop on Online Abuse and Harms (WOAH), The Technical Symposium on Computer Science Education (SIGCSE TS)
+- organization: International Conference on Learning Representations (ICLR), ACL Rolling Review (ARR), International Conference on Computational Linguistics (COLING), Workshop on Online Abuse and Harms (WOAH), The Technical Symposium on Computer Science Education (SIGCSE TS)
   role: Served as a reviewer for the above mentioned conferences
-  year: 2023 Onwards (Not listing individual years for each conference but have reviewed for multiple years for some of these conferences and didn't start reviewing for all of them in the same year)
+  year: 2023 Onwards
   url: 
 
 - organization: "FIRE HASOC Task 3: Identification of Tokens Contributing to Explicit Hate in Text by Span Detection"

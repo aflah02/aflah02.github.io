@@ -44,6 +44,8 @@ resume_section_talks:           true
 resume_section_interests:       true
 resume_section_news:            false
 resume_news_count:              5
+resume_experience_count:        3
+resume_talks_count:             5
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL

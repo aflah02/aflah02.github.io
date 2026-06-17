@@ -1,0 +1,8 @@
+<div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
+  <h3 class="resume-item-title" itemprop="name">{% if include.talk.url %}<a target="_blank" href="{{ include.talk.url }}">{{ include.talk.title }}</a>{% else %}{{ include.talk.title }}{% endif %}</h3>
+  <h4 class="resume-item-details" itemprop="description">{{ include.talk.venue1 }} &bull; {{ include.talk.year1 }}</h4>
+  {% if include.talk.venue2 %}
+    <h4 class="resume-item-details" itemprop="description">{{ include.talk.venue2 }} &bull; {{ include.talk.year2 }}</h4>
+  {% endif %}
+  <!-- <p class="resume-item-copy">{{ include.talk.summary }}</p> -->
+</div>

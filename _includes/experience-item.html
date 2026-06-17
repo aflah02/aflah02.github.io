@@ -1,0 +1,11 @@
+<div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+  <h3 class="resume-item-title" itemprop="name">{{ include.job.company }}</h3>
+  {% if include.job.roles %}
+  {% for role in include.job.roles %}
+  <h4 class="resume-item-details" itemprop="description">{{ role.position }} &bull; {{ role.duration }}</h4>
+  {% endfor %}
+  {% else %}
+  <h4 class="resume-item-details" itemprop="description">{{ include.job.position }} &bull; {{ include.job.duration }}</h4>
+  {% endif %}
+  <p class="resume-item-copy">{{ include.job.summary }}</p>
+</div>

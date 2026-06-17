@@ -91,19 +91,17 @@
           <h4>Ongoing first (rest sorted by end date)</h4>
         </header>
 
-        {% for job in site.data.experience %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          {% if job.roles %}
-          {% for role in job.roles %}
-          <h4 class="resume-item-details" itemprop="description">{{ role.position }} &bull; {{ role.duration }}</h4>
-          {% endfor %}
-          {% else %}
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          {% endif %}
-          <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
+        {% for job in site.data.experience limit: site.resume_experience_count %}
+        {% include experience-item.html job=job %}
         {% endfor %}
+        {% if site.data.experience.size > site.resume_experience_count %}
+        <div id="experience-expanded" hidden>
+          {% for job in site.data.experience offset: site.resume_experience_count %}
+          {% include experience-item.html job=job %}
+          {% endfor %}
+        </div>
+        <button id="experience-toggle" class="news-toggle-btn no-print">View more ▼</button>
+        {% endif %}
 
       </section>
       <!-- end Experience -->
@@ -270,16 +268,17 @@
           <h2>Talks</h2>
         </header>
 
-        {% for association in site.data.talks %}
-        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a target="_blank"  href="{{ association.url }}">{{ association.title }}</a>{% else %}{{ association.title }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ association.venue1 }} &bull; {{ association.year1 }}</h4>
-          {% if association.venue2 %}
-            <h4 class="resume-item-details" itemprop="description">{{ association.venue2 }} &bull; {{ association.year2 }}</h4>
-          {% endif %}
-          <!-- <p class="resume-item-copy">{{ association.summary }}</p> -->
-        </div>
+        {% for association in site.data.talks limit: site.resume_talks_count %}
+        {% include talk-item.html talk=association %}
         {% endfor %}
+        {% if site.data.talks.size > site.resume_talks_count %}
+        <div id="talks-expanded" hidden>
+          {% for association in site.data.talks offset: site.resume_talks_count %}
+          {% include talk-item.html talk=association %}
+          {% endfor %}
+        </div>
+        <button id="talks-toggle" class="news-toggle-btn no-print">View more ▼</button>
+        {% endif %}
 
       </section>
       <!-- end Talks -->
@@ -467,6 +466,22 @@
         ].forEach(function(sectionConfig) {
           setupCollapsibleSection(sectionConfig[0], sectionConfig[1], sectionConfig[2]);
         });
+
+        function setupViewMore(toggleId, contentId) {
+          const toggle = document.getElementById(toggleId);
+          const content = document.getElementById(contentId);
+
+          if (toggle && content) {
+            toggle.addEventListener('click', function() {
+              const isExpanded = !content.hidden;
+              content.hidden = isExpanded;
+              toggle.textContent = isExpanded ? 'View more ▼' : 'View less ▲';
+            });
+          }
+        }
+
+        setupViewMore('experience-toggle', 'experience-expanded');
+        setupViewMore('talks-toggle', 'talks-expanded');
 
         const featuredCheckbox = document.getElementById('featured-filter');
         const oralCheckbox = document.getElementById('oral-filter');
