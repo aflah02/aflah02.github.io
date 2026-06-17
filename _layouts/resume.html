@@ -314,12 +314,18 @@
 
       {% if site.resume_section_links %}
       <!-- begin Links -->
-      <section class="content-section">
+      <section class="content-section collapsible-section is-collapsed" id="teaching-section">
 
-        <header class="section-header">
-          <h2>Teaching</h2>
+        <header class="section-header collapsible-section-header">
+          <h2>
+            <button type="button" class="section-toggle" id="teaching-toggle" aria-expanded="false" aria-controls="teaching-content">
+              <span>Teaching</span>
+              <span class="section-toggle-icon" aria-hidden="true">▼</span>
+            </button>
+          </h2>
         </header>
 
+        <div id="teaching-content" class="collapsible-section-content" aria-hidden="true" hidden>
         <div class="resume-item">
           <ul class="resume-item-list">
             {% for link in site.data.links %}
@@ -328,6 +334,7 @@
             {% endfor %}
           </ul>
         </div>
+        </div>
 
       </section>
       <!-- end Links -->
@@ -335,11 +342,17 @@
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Education</h2>
+      <section class="content-section collapsible-section is-collapsed" id="education-section">
+        <header class="section-header collapsible-section-header">
+          <h2>
+            <button type="button" class="section-toggle" id="education-toggle" aria-expanded="false" aria-controls="education-content">
+              <span>Education</span>
+              <span class="section-toggle-icon" aria-hidden="true">▼</span>
+            </button>
+          </h2>
         </header>
 
+        <div id="education-content" class="collapsible-section-content" aria-hidden="true" hidden>
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
@@ -356,6 +369,7 @@
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
         {% endfor %}
+        </div>
       </section>
       <!-- end Education -->
       {% endif %}
@@ -430,19 +444,29 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-        // Associations expand/collapse
-        const associationsSection = document.getElementById('associations-section');
-        const associationsToggle = document.getElementById('associations-toggle');
-        const associationsContent = document.getElementById('associations-content');
-        if (associationsSection && associationsToggle && associationsContent) {
-          associationsToggle.addEventListener('click', function() {
-            const isExpanded = associationsToggle.getAttribute('aria-expanded') === 'true';
-            associationsSection.classList.toggle('is-collapsed', isExpanded);
-            associationsToggle.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
-            associationsContent.setAttribute('aria-hidden', isExpanded ? 'true' : 'false');
-            associationsContent.hidden = isExpanded;
-          });
+        function setupCollapsibleSection(sectionId, toggleId, contentId) {
+          const section = document.getElementById(sectionId);
+          const toggle = document.getElementById(toggleId);
+          const content = document.getElementById(contentId);
+
+          if (section && toggle && content) {
+            toggle.addEventListener('click', function() {
+              const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+              section.classList.toggle('is-collapsed', isExpanded);
+              toggle.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
+              content.setAttribute('aria-hidden', isExpanded ? 'true' : 'false');
+              content.hidden = isExpanded;
+            });
+          }
         }
+
+        [
+          ['associations-section', 'associations-toggle', 'associations-content'],
+          ['teaching-section', 'teaching-toggle', 'teaching-content'],
+          ['education-section', 'education-toggle', 'education-content']
+        ].forEach(function(sectionConfig) {
+          setupCollapsibleSection(sectionConfig[0], sectionConfig[1], sectionConfig[2]);
+        });
 
         const featuredCheckbox = document.getElementById('featured-filter');
         const oralCheckbox = document.getElementById('oral-filter');
