@@ -298,7 +298,7 @@
           </h2>
         </header>
 
-        <div id="associations-content" class="collapsible-section-content" aria-hidden="true">
+        <div id="associations-content" class="collapsible-section-content" aria-hidden="true" hidden>
         {% for association in site.data.associations %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a target="_blank"  href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
@@ -430,6 +430,20 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
+        // Associations expand/collapse
+        const associationsSection = document.getElementById('associations-section');
+        const associationsToggle = document.getElementById('associations-toggle');
+        const associationsContent = document.getElementById('associations-content');
+        if (associationsSection && associationsToggle && associationsContent) {
+          associationsToggle.addEventListener('click', function() {
+            const isExpanded = associationsToggle.getAttribute('aria-expanded') === 'true';
+            associationsSection.classList.toggle('is-collapsed', isExpanded);
+            associationsToggle.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
+            associationsContent.setAttribute('aria-hidden', isExpanded ? 'true' : 'false');
+            associationsContent.hidden = isExpanded;
+          });
+        }
+
         const featuredCheckbox = document.getElementById('featured-filter');
         const oralCheckbox = document.getElementById('oral-filter');
         const yearFilter = document.getElementById('year-filter');
@@ -438,6 +452,10 @@
         const publications = document.querySelectorAll('.publication-item');
 
         function filterPublications() {
+          if (!featuredCheckbox || !oralCheckbox || !yearFilter || !typeFilter || !preprintsCheckbox) {
+            return;
+          }
+
           const showFeaturedOnly = featuredCheckbox.checked;
           const showOralOnly = oralCheckbox.checked;
           const showExclusiveOnly = showFeaturedOnly || showOralOnly;
@@ -492,24 +510,26 @@
           });
         }
 
-        featuredCheckbox.addEventListener('change', function() {
-          if (featuredCheckbox.checked) {
-            oralCheckbox.checked = false;
-          }
-          filterPublications();
-        });
-        oralCheckbox.addEventListener('change', function() {
-          if (oralCheckbox.checked) {
-            featuredCheckbox.checked = false;
-          }
-          filterPublications();
-        });
-        yearFilter.addEventListener('change', filterPublications);
-        typeFilter.addEventListener('change', filterPublications);
-        preprintsCheckbox.addEventListener('change', filterPublications);
+        if (featuredCheckbox && oralCheckbox && yearFilter && typeFilter && preprintsCheckbox) {
+          featuredCheckbox.addEventListener('change', function() {
+            if (featuredCheckbox.checked) {
+              oralCheckbox.checked = false;
+            }
+            filterPublications();
+          });
+          oralCheckbox.addEventListener('change', function() {
+            if (oralCheckbox.checked) {
+              featuredCheckbox.checked = false;
+            }
+            filterPublications();
+          });
+          yearFilter.addEventListener('change', filterPublications);
+          typeFilter.addEventListener('change', filterPublications);
+          preprintsCheckbox.addEventListener('change', filterPublications);
 
-        // Initial filter on page load
-        filterPublications();
+          // Initial filter on page load
+          filterPublications();
+        }
 
         // News expand/collapse
         const newsToggle = document.getElementById('news-toggle');
@@ -522,18 +542,6 @@
           });
         }
 
-        // Associations expand/collapse
-        const associationsSection = document.getElementById('associations-section');
-        const associationsToggle = document.getElementById('associations-toggle');
-        const associationsContent = document.getElementById('associations-content');
-        if (associationsSection && associationsToggle && associationsContent) {
-          associationsToggle.addEventListener('click', function() {
-            const isExpanded = associationsToggle.getAttribute('aria-expanded') === 'true';
-            associationsSection.classList.toggle('is-collapsed', isExpanded);
-            associationsToggle.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
-            associationsContent.setAttribute('aria-hidden', isExpanded ? 'true' : 'false');
-          });
-        }
       });
     </script>
 
