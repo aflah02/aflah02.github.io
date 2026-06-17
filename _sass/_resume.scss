@@ -186,6 +186,51 @@
   .resume-item-copy { margin: .75rem 0 0; }
 }
 
+.collapsible-section {
+  &.is-collapsed {
+    .collapsible-section-header {
+      margin-bottom: 0;
+    }
+
+    .collapsible-section-content {
+      display: none;
+    }
+  }
+
+  &:not(.is-collapsed) .section-toggle-icon {
+    transform: rotate(180deg);
+  }
+}
+
+.section-toggle {
+  align-items: center;
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  font-weight: inherit;
+  justify-content: space-between;
+  letter-spacing: inherit;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+
+  &:focus-visible {
+    outline: 2px solid #007acc;
+    outline-offset: 4px;
+  }
+}
+
+.section-toggle-icon {
+  flex-shrink: 0;
+  font-size: 1rem;
+  line-height: 1;
+  margin-left: 1rem;
+  transition: transform 0.2s ease;
+}
+
 // footer styles
 
 .page-footer {
@@ -408,5 +453,16 @@
         font-size: 11px;
       }
     }
+  }
+  .collapsible-section.is-collapsed {
+    .collapsible-section-content {
+      display: block;
+    }
+  }
+  .section-toggle {
+    cursor: default;
+  }
+  .section-toggle-icon {
+    display: none;
   }
 }

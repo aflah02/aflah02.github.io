@@ -287,12 +287,18 @@
 
       {% if site.resume_section_associations %}
       <!-- begin Associations -->
-      <section class="content-section">
+      <section class="content-section collapsible-section is-collapsed" id="associations-section">
 
-        <header class="section-header">
-          <h2>Organizing, Reviewing & Volunteering</h2>
+        <header class="section-header collapsible-section-header">
+          <h2>
+            <button type="button" class="section-toggle" id="associations-toggle" aria-expanded="false" aria-controls="associations-content">
+              <span>Organizing, Reviewing & Volunteering</span>
+              <span class="section-toggle-icon" aria-hidden="true">▼</span>
+            </button>
+          </h2>
         </header>
 
+        <div id="associations-content" class="collapsible-section-content" aria-hidden="true">
         {% for association in site.data.associations %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a target="_blank"  href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
@@ -300,6 +306,7 @@
           <p class="resume-item-copy">{{ association.summary }}</p>
         </div>
         {% endfor %}
+        </div>
 
       </section>
       <!-- end Associations -->
@@ -512,6 +519,19 @@
             const isExpanded = newsExpanded.style.display !== 'none';
             newsExpanded.style.display = isExpanded ? 'none' : 'block';
             newsToggle.textContent = isExpanded ? 'Show more ▼' : 'Show less ▲';
+          });
+        }
+
+        // Associations expand/collapse
+        const associationsSection = document.getElementById('associations-section');
+        const associationsToggle = document.getElementById('associations-toggle');
+        const associationsContent = document.getElementById('associations-content');
+        if (associationsSection && associationsToggle && associationsContent) {
+          associationsToggle.addEventListener('click', function() {
+            const isExpanded = associationsToggle.getAttribute('aria-expanded') === 'true';
+            associationsSection.classList.toggle('is-collapsed', isExpanded);
+            associationsToggle.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
+            associationsContent.setAttribute('aria-hidden', isExpanded ? 'true' : 'false');
           });
         }
       });
