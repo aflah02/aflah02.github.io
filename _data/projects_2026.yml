@@ -79,6 +79,9 @@
   role: Bishwamittra Ghosh, Soumi Das, Till Speicher, Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Deepak Garg, Krishna P. Gummadi, Evimaria Terzi 
   type: main
   is_oral: true
+  github: https://github.com/bishwamittra/formallm
+  awards:
+    - SAC Highlight Award
   talk: https://www.youtube.com/watch?v=hM4fqoqqP58
   talk_speaker: Bishwamittra Ghosh
   url: https://arxiv.org/abs/2604.23267

@@ -1,0 +1,8 @@
+{% if include.project.awards %}
+<div class="paper-awards" aria-label="Awards">
+  {% for award in include.project.awards %}
+    {% assign award_label = award.award | default: award %}
+    <span class="paper-award" data-award="{{ award_label | strip_html | strip | escape }}">{{ award_label }}</span>
+  {% endfor %}
+</div>
+{% endif %}
