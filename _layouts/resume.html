@@ -152,12 +152,6 @@
             </select>
           </div>
           <div class="filter-group">
-            <label for="award-filter" class="filter-tooltip" data-tooltip="Cannot be changed in Featured/Oral only view">Award:</label>
-            <select id="award-filter" disabled class="filter-tooltip" data-tooltip="Cannot be changed in Featured/Oral only view">
-              <option value="all">All</option>
-            </select>
-          </div>
-          <div class="filter-group">
             <label class="checkbox-label filter-tooltip" data-tooltip="Cannot be changed in Featured/Oral only view">
               <input type="checkbox" id="preprints-filter" disabled checked>
               Show Preprints
@@ -499,39 +493,11 @@
         const oralCheckbox = document.getElementById('oral-filter');
         const yearFilter = document.getElementById('year-filter');
         const typeFilter = document.getElementById('type-filter');
-        const awardFilter = document.getElementById('award-filter');
         const preprintsCheckbox = document.getElementById('preprints-filter');
         const publications = document.querySelectorAll('.publication-item');
 
-        function normalizeAwardText(value) {
-          return value.replace(/\s+/g, ' ').trim();
-        }
-
-        function populateAwardFilter() {
-          if (!awardFilter) {
-            return;
-          }
-
-          const awards = new Set();
-          publications.forEach(function(pub) {
-            pub.querySelectorAll('.paper-award').forEach(function(award) {
-              const awardName = normalizeAwardText(award.textContent);
-              if (awardName) {
-                awards.add(awardName);
-              }
-            });
-          });
-
-          Array.from(awards).sort().forEach(function(awardName) {
-            const option = document.createElement('option');
-            option.value = awardName;
-            option.textContent = awardName;
-            awardFilter.appendChild(option);
-          });
-        }
-
         function filterPublications() {
-          if (!featuredCheckbox || !oralCheckbox || !yearFilter || !typeFilter || !awardFilter || !preprintsCheckbox) {
+          if (!featuredCheckbox || !oralCheckbox || !yearFilter || !typeFilter || !preprintsCheckbox) {
             return;
           }
 
@@ -540,13 +506,11 @@
           const showExclusiveOnly = showFeaturedOnly || showOralOnly;
           const selectedYear = yearFilter.value;
           const selectedType = typeFilter.value;
-          const selectedAward = awardFilter.value;
           const showPreprints = preprintsCheckbox.checked;
 
           // Enable/disable other filters based on exclusive checkboxes
           yearFilter.disabled = showExclusiveOnly;
           typeFilter.disabled = showExclusiveOnly;
-          awardFilter.disabled = showExclusiveOnly;
           preprintsCheckbox.disabled = showExclusiveOnly;
 
           publications.forEach(function(pub) {
@@ -555,9 +519,6 @@
             const isPreprint = pub.getAttribute('data-preprint') === 'true';
             const isFeatured = pub.getAttribute('data-featured') === 'true';
             const isOral = pub.getAttribute('data-oral') === 'true';
-            const pubAwards = Array.from(pub.querySelectorAll('.paper-award')).map(function(award) {
-              return normalizeAwardText(award.textContent);
-            });
 
             let show = true;
 
@@ -585,11 +546,6 @@
               }
             }
 
-            // Award filter (only if not showing an exclusive list)
-            if (show && !showExclusiveOnly && selectedAward !== 'all' && !pubAwards.includes(selectedAward)) {
-              show = false;
-            }
-
             // Preprints filter (only if not showing an exclusive list)
             if (show && !showExclusiveOnly && !showPreprints && isPreprint) {
               show = false;
@@ -599,9 +555,7 @@
           });
         }
 
-        if (featuredCheckbox && oralCheckbox && yearFilter && typeFilter && awardFilter && preprintsCheckbox) {
-          populateAwardFilter();
-
+        if (featuredCheckbox && oralCheckbox && yearFilter && typeFilter && preprintsCheckbox) {
           featuredCheckbox.addEventListener('change', function() {
             if (featuredCheckbox.checked) {
               oralCheckbox.checked = false;
@@ -616,7 +570,6 @@
           });
           yearFilter.addEventListener('change', filterPublications);
           typeFilter.addEventListener('change', filterPublications);
-          awardFilter.addEventListener('change', filterPublications);
           preprintsCheckbox.addEventListener('change', filterPublications);
 
           // Initial filter on page load
