@@ -323,6 +323,52 @@ body {
 
 .section-toggle-icon { color: #777c7e; }
 
+.review-service-summary {
+  @include sans;
+  color: #767b7d;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  margin: .25rem 0 1.1rem;
+  text-transform: uppercase;
+}
+
+.review-venue-list {
+  border-top: 1px solid #e2e4e1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.review-venue-item {
+  align-items: baseline;
+  border-bottom: 1px solid #e2e4e1;
+  display: grid;
+  gap: .6rem 1.2rem;
+  grid-template-columns: 6.5rem minmax(0, 1fr) max-content;
+  padding: .85rem 0;
+}
+
+.review-venue-code,
+.review-venue-years {
+  @include sans_bold;
+  font-size: .72rem;
+  letter-spacing: .035em;
+}
+
+.review-venue-code { color: #202324; }
+
+.review-venue-name {
+  color: #555a5c;
+  font-size: .9rem;
+}
+
+.review-venue-years {
+  color: #777c7e;
+  text-align: right;
+  white-space: nowrap;
+}
+
 .page-footer {
   border-top: 1px solid #d8dad7;
   color: #8a8f91;
@@ -365,4 +411,14 @@ body {
   .content-section .publication-item { padding-left: 0; }
 
   .publication-filters { grid-template-columns: 1fr 1fr; }
+
+  .review-venue-item {
+    gap: .25rem .8rem;
+    grid-template-columns: 1fr max-content;
+  }
+
+  .review-venue-name {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
 }

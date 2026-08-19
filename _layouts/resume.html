@@ -319,11 +319,27 @@
 
         <div id="associations-content" class="collapsible-section-content" aria-hidden="true" hidden>
         {% for association in site.data.associations %}
+        {% if association.review_venues %}
+        <div class="resume-item review-service" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{{ association.organization }}</h3>
+          <p class="review-service-summary" itemprop="description">{{ association.role }}</p>
+          <ul class="review-venue-list" aria-label="Peer review venues">
+            {% for venue in association.review_venues %}
+            <li class="review-venue-item">
+              <span class="review-venue-code">{{ venue.code }}</span>
+              <span class="review-venue-name">{{ venue.name }}</span>
+              <span class="review-venue-years">{{ venue.years }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% else %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a target="_blank"  href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
           <p class="resume-item-copy">{{ association.summary }}</p>
         </div>
+        {% endif %}
         {% endfor %}
         </div>
 
