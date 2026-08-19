@@ -99,6 +99,10 @@ body {
     }
 
     svg * { fill: currentColor !important; }
+
+    .icon-youtube-play { fill: #fafaf8 !important; }
+
+    &:hover .icon-youtube-play { fill: #1d2021 !important; }
   }
 }
 
