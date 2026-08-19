@@ -31,7 +31,7 @@ resume_contact_email:           "aflah20082@iiitd.ac.in"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Hi, I’m Aflah, a research software engineer at the Max Planck Institute for Software Systems. My work centers on deepening our understanding of large language models (LLMs) and rigorously evaluating their capabilities. I’m also passionate about the systems side of LLMs, with hands-on experience in large-scale pretraining and inference. In the past, I’ve contributed to projects targeting hate speech reduction and other NLP applications for social good.</p> <b>Open to roles in research, research engineering, or backend engineering</b>"
+resume_header_intro: "<p>Hi, I’m Aflah, a first year PhD student at the Max Planck Institute for Software Systems. My work centers on deepening our understanding of large language models (LLMs) and rigorously evaluating their capabilities. I’m also passionate about the systems side of LLMs, with hands-on experience in large-scale pretraining and inference. In the past, I’ve contributed to projects targeting hate speech reduction and other NLP applications for social good.</p> <b>Open to internships in LLM research for summer 2027</b>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,

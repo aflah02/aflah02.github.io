@@ -1,16 +1,17 @@
 # Jobs
 
 - company: Max Planck Institute for Software Systems (MPI-SWS)
+  roles:
+    - position: PhD Student [Full Time]
+      duration: Sept, 2026 &mdash; Present
+    - position: Research Software Engineer [Full Time]
+      duration: April, 2024 &mdash; Present
+    - position: Research Software Engineer [Part Time]
+      duration: Nov, 2023 &mdash; March, 2024
+    - position: Research Intern [Part Time]
+      duration: Aug, 2023 &mdash; Oct, 2023
   position: Research Software Engineer
-  duration: April, 2024 &mdash; Present [Full Time] | Nov, 2023 &mdash; March, 2024 [Part Time]  | Aug, 2023 &mdash; Oct, 2023 [Intern]
-  summary: Working under Dr Krishna Gummadi to explore different aspects of LLMs. Some areas we've explored/are exploring are	
-    <ul class="resume-item-list">    
-      <li>Optimizing pre-training and inference for LLMs</li>
-      <li>LLM memorization and the impact of Parameter-Efficient Fine-Tuning (PEFT) on memorization</li>
-      <li>Knowledge acquisition and evaluation of factual knowledge in LLMs</li>
-      <li>Built and currently maintain key internal tools OpenChat (An internal chatbot), MaxCast (A research paper-to-podcast conversion service) & MaxChat (A document-based chat service). These services were developed from scratch, including hosting models on-premises and fine-tuning for optimal performance.
-      <li>Published and submitted research to top-tier (A*) conferences</li>
-    </ul>
+  summary: I am a first-year PhD student at MPI-SWS, advised by Dr. Krishna Gummadi and Dr. Abhilasha Ravichander. My research examines the capabilities and limitations of large language models (LLMs), with an emphasis on improving their performance and reliability. Previously, as a Research Software Engineer, I worked on pre-training and inference optimization, tool use and reasoning, memorization, parameter-efficient fine-tuning (PEFT), and factual knowledge acquisition and evaluation. I also built and maintained OpenChat, an internal chatbot; MaxCast, a research paper-to-podcast service; and MaxChat, a document-based conversational system, including their on-premises model deployment and performance optimization.
 
 - company: EleutherAI
   roles:
@@ -18,7 +19,7 @@
       duration: June, 2026 &mdash; Present
     - position: Community Researcher [Part Time]
       duration: Dec, 2022 &mdash; June, 2026
-  summary: Currently working on the Multilingual Natural Instructions project to build a massive instruction tuning corpus for Hindi. Previously worked on - 
+  summary: I'm currently working on improving GPT-NeoX, EleutherAI's pre-training codebase. I'm also collaborating with the ATLAS project at CERN to build better jet tagging classifiers for di-higgs boson events. I've previously worked on - 
     <ul class="resume-item-list">    
       <li>Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling (Accepted ICML'23) - Majorly contributed to the gender bias evals and intervention case study. The models have over 18 million downloads (as of April 2025)</li>
       <li>Recite, Reconstruct, Recollect - Memorization in LMs as a Multifaceted Phenomenon (Accepted ICLR'25) - An intuitive taxonomy to classify memorized sequences and then build predictors based on these classes</li>
@@ -28,13 +29,13 @@
 - company: Laboratory for Computational Social Systems (LCS2)
   position: Undergraduate Student Researcher
   duration: June, 2021 &mdash; May, 2024
-  summary: I've worked on a variety of projects, from hate speech normalization to designing recommendations for fine-tuning improved hate speech detectors. I also led the QUENCH project, a benchmark aimed at evaluating advanced reasoning abilities in large language models, with a particular emphasis on Indic contexts.
+  summary: At LCS2, I worked on projects spanning hate-speech normalization and fine-tuning strategies for more effective hate-speech detection. I also co-led QUENCH, a benchmark designed to evaluate advanced reasoning capabilities in large language models, with a particular focus on Indic contexts.
 
 - company: Goldman Sachs
   position: Summer Analyst
   duration: May, 2023 &mdash; July, 2023
-  summary: Worked in the Finance, Planning & Analysis Engineering division towards revamping the central hub of the department. Also built POCs based on user feedback to improve the search and access experience on the webapp. Also recieved a return offer to join full time as an Analyst.
-  
+  summary: Within the Finance, Planning & Analysis Engineering division, I helped revamp the department’s central hub and developed proof-of-concept features informed by user feedback to improve search and content accessibility across the web application. I also received a return offer to join the company full-time as an Analyst.
+
 - company: Google Summer of Code - TensorFlow
   position: Open Source Developer
   duration: May, 2022 &mdash; Sept, 2022
