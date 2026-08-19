@@ -35,7 +35,7 @@
   talk: https://slideslive.com/39062059/hubble-a-model-suite-to-advance-the-study-of-llm-memorization
   talk_speaker: Johnny Tian-Zheng Wei & Mohammad Aflah Khan
   description: |
-    [Oral] ICLR 2026 - The Fourteenth International Conference on Learning Representations
+    [Oral] ICLR 2026 - The Fourteenth International Conference on Learning Representations (Top ~1.2% of submissions)
     Data-FM @ ICLR 2026 - Workshop on Navigating and Addressing Data Problems for Foundation Models (Non-Archival)
   press:
     Science: https://www.science.org/content/article/ais-can-memorize-data-they-shouldn-t-can-they-be-forced-forget
@@ -72,7 +72,7 @@
   is_featured: true
   url: https://arxiv.org/abs/2606.06533
   description: |
-    [Oral] ICML 2026 (Position Paper Track) - Forty-Third International Conference on Machine Learning
+    [Oral] ICML 2026 (Position Paper Track) - Forty-Third International Conference on Machine Learning (Top ~1.6% of submissions)
     Mechanistic Interpretability Workshop @ ICML 2026 (Non-Archival)
  
 - project: "Fine-tuning vs. In-context Learning in Large Language Models: A Formal Language Learning Perspective"
@@ -85,7 +85,7 @@
   talk: https://www.youtube.com/watch?v=hM4fqoqqP58
   talk_speaker: Bishwamittra Ghosh
   url: https://arxiv.org/abs/2604.23267
-  description: "[Oral] ACL 2026 - The 64th Annual Meeting of the Association for Computational Linguistics"
+  description: "[Oral] ACL 2026 - The 64th Annual Meeting of the Association for Computational Linguistics (Top ~4.1% of submissions)"
 
 - project: "Fractional Rotation, Full Potential? Investigating Performance and Convergence of Partial RoPE"
   role: <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander

@@ -26,7 +26,7 @@
   github: https://github.com/EleutherAI/pythia
   huggingface: https://huggingface.co/collections/EleutherAI/pythia-scaling-suite
   url: https://arxiv.org/abs/2304.01373
-  description: "[Oral] ICML 2023 - The Fortieth International Conference on Machine Learning"
+  description: "[Oral] ICML 2023 - The Fortieth International Conference on Machine Learning (Top ~2.3% of submissions)"
   slides: https://docs.google.com/presentation/d/1VuNG0cZ-s0fuoed3atviDMV8yEkBvU1TE94N0SE09eU/edit?usp=sharing
   talks:
     - url: https://icml.cc/virtual/2023/oral/25487
