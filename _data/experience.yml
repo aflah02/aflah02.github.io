@@ -22,7 +22,7 @@
   summary: |-
     I'm currently working on improving GPT-NeoX, EleutherAI's pre-training codebase. I'm also collaborating with the ATLAS project at CERN to build better jet tagging classifiers for di-higgs boson events. I've previously worked on -
     <ul class="resume-item-list">
-      <li>Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling (Accepted ICML'23) - Majorly contributed to the gender bias evals and intervention case study. The models have over 18 million downloads (as of April 2025)</li>
+      <li>Pythia - A Suite for Analyzing Large Language Models Across Training and Scaling (Accepted ICML'23 as an Oral) - Majorly contributed to the gender bias evals and intervention case study. The models have over 18 million downloads (as of April 2025)</li>
       <li>Recite, Reconstruct, Recollect - Memorization in LMs as a Multifaceted Phenomenon (Accepted ICLR'25) - An intuitive taxonomy to classify memorized sequences and then build predictors based on these classes</li>
       <li>Position: Don't Just "Fix it in Post": A Science of AI Must Study Training Dynamics (Accepted ICML'26 as an Oral) - A position paper arguing for the importance of studying training dynamics to arrive at a science of AI</li>
     </ul>

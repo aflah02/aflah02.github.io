@@ -19,7 +19,7 @@ exclude:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Mohammad Aflah Khan"
-resume_title:                   "Research Software Engineer @ MPI-SWS · Research Scientist @ EleutherAI"
+resume_title:                   "PhD Student @ MPI-SWS · Research Scientist @ EleutherAI"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "aflah20082@iiitd.ac.in"
