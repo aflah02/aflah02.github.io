@@ -12,6 +12,9 @@
     - code: ICLR
       name: International Conference on Learning Representations
       years: "2025"
+    - code: AdaptFM
+      name: Resource-Adaptive Foundation Model Inference (AdaptFM) Workshop
+      years: "2025"
     - code: ARR
       name: ACL Rolling Review
       years: "2024–present"
