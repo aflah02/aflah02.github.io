@@ -310,6 +310,46 @@ body {
     filter: grayscale(1);
     opacity: .68;
   }
+
+  .paper-resource-press {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .2rem .45rem;
+    margin-top: .25rem;
+    width: 100%;
+
+    .paper-resource-label {
+      color: #777c7e;
+      font-size: .65rem;
+      font-weight: 700;
+      letter-spacing: .055em;
+      margin-right: .1rem;
+      text-transform: uppercase;
+    }
+
+    .paper-resource-separator { color: #b4b8b5; }
+
+    a.paper-resource-link {
+      background: transparent;
+      border: 0 !important;
+      border-radius: 0;
+      display: inline;
+      line-height: inherit;
+      min-height: 0;
+      min-width: 0;
+      padding: 0;
+      text-decoration: underline !important;
+      text-decoration-color: #b4b8b5 !important;
+      text-underline-offset: .16em;
+
+      &:hover {
+        background: transparent;
+        color: #111314;
+        text-decoration-color: currentColor !important;
+      }
+    }
+  }
 }
 
 .paper-award {

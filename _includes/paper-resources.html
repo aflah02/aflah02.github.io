@@ -27,12 +27,10 @@
   {% endif %}
   {% if include.project.press %}
   <span class="paper-resource-press">
-    Press/Other Coverage
-    [
+    <span class="paper-resource-label">Press/Other Coverage</span>
     {% for entry in include.project.press %}
-    <a target="_blank" href="{{ entry[1] }}" class="paper-resource-link">{{ entry[0] }}</a>{% if forloop.last == false %}, {% endif %}
+    <a target="_blank" href="{{ entry[1] }}" class="paper-resource-link">{{ entry[0] }}</a>{% if forloop.last == false %}<span class="paper-resource-separator" aria-hidden="true">·</span>{% endif %}
     {% endfor %}
-    ]
   </span>
   {% endif %}
 </div>
