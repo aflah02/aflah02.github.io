@@ -1,46 +1,92 @@
 // Base styles
 // ---------------------------------------/
+
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 html {
-  background: $white;
+  background: #f2f0e9;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
 }
 
-body{
+body {
   @include serif;
+  background:
+    radial-gradient(circle at 8% 2%, rgba(215, 139, 104, .12), transparent 28rem),
+    radial-gradient(circle at 92% 12%, rgba(45, 116, 118, .13), transparent 30rem),
+    #f2f0e9;
   color: $text_color;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 1.65;
+  margin: 0;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 3px solid #db8b65;
+  outline-offset: 3px;
 }
 
 .wrapper:before,
-.wrapper:after { content:""; display:table; }
+.wrapper:after { content: ""; display: table; }
 .wrapper:after { clear: both; }
+
 .wrapper {
-  max-width: 80%;
-  padding: 0 24px;
   margin: 0 auto;
+  max-width: $container-width;
+  padding: 2.25rem 1.5rem 0;
+  width: 100%;
   zoom: 1;
 }
 
-// clearfix (now called group,
-// via http://css-tricks.com/snippets/css/clear-fix/)
+.skip-link {
+  @include sans_bold;
+  background: #fff;
+  border-radius: 0 0 8px 0;
+  color: #142b34;
+  left: 0;
+  padding: .7rem 1rem;
+  position: fixed;
+  top: 0;
+  transform: translateY(-130%);
+  transition: transform .2s ease;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 .group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both; }
-.group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
+.group:after { content: ""; display: table; }
+.group:after { clear: both; }
+.group { zoom: 1; }
 
 ::-moz-selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
-    text-shadow: none;
+  background: #2d7476;
+  color: #fff;
+  text-shadow: none;
 }
+
 ::selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
-    text-shadow: none;
+  background: #2d7476;
+  color: #fff;
+  text-shadow: none;
+}
+
+@media (max-width: 720px) {
+  html { scroll-padding-top: 5.5rem; }
+  body { font-size: 16px; }
+  .wrapper { padding: .75rem .75rem 0; }
 }

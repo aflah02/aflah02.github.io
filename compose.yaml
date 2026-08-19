@@ -1,0 +1,18 @@
+services:
+  website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      JEKYLL_ENV: development
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/workspace
+      - bundle-cache:/usr/local/bundle
+    init: true
+    tty: true
+
+volumes:
+  bundle-cache:

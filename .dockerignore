@@ -1,7 +1,8 @@
 .git
-.git/
 .gitignore
-_site
 .sass-cache
+_site
+vendor
+.bundle
 .DS_Store
-_vendor
+*.log
