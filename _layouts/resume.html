@@ -367,8 +367,11 @@
         <div class="resume-item">
           <ul class="resume-item-list">
             {% for link in site.data.links %}
-            <!-- <li><a target="_blank"  href={{ link.url }} itemprop="url">{{ link.description }}</a></li> -->
+            {% if link.url and link.url != "#" %}
+            <li><a target="_blank" href="{{ link.url }}" itemprop="url" rel="noopener noreferrer">{{ link.description }}</a></li>
+            {% else %}
             <li>{{ link.description }}</li>
+            {% endif %}
             {% endfor %}
           </ul>
         </div>
