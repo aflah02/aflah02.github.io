@@ -1,0 +1,27 @@
+{
+  "name": "Aflah Personal Website",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "website",
+  "workspaceFolder": "/workspace",
+  "overrideCommand": true,
+  "postCreateCommand": "bundle check || bundle install",
+  "forwardPorts": [4000, 35729],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll website",
+      "onAutoForward": "openPreview"
+    },
+    "35729": {
+      "label": "LiveReload",
+      "onAutoForward": "silent"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "sissel.shopify-liquid",
+        "syler.sass-indented"
+      ]
+    }
+  }
+}

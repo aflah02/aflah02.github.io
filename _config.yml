@@ -8,6 +8,14 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Development files that should not be copied into the generated site.
+exclude:
+  - .devcontainer
+  - .dockerignore
+  - compose.yaml
+  - Dockerfile
+  - README.md
+
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Mohammad Aflah Khan"
