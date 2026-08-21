@@ -75,6 +75,14 @@
     [Oral] ICML 2026 (Position Paper Track) - Forty-Third International Conference on Machine Learning (Top ~1.6% of submissions)
     Mechanistic Interpretability Workshop @ ICML 2026 (Non-Archival)
  
+- project: "Fractional Rotation, Full Potential? Investigating Performance and Convergence of Partial RoPE"
+  role: <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander
+  duration: 2026
+  url: https://arxiv.org/abs/2603.11611
+  github: https://github.com/aflah02/Partial_RoPE_Analysis
+  type: main
+  description: EMNLP 2026 - The 2026 Conference on Empirical Methods in Natural Language Processing
+
 - project: "Fine-tuning vs. In-context Learning in Large Language Models: A Formal Language Learning Perspective"
   role: Bishwamittra Ghosh, Soumi Das, Till Speicher, Qinyuan Wu, <i>Mohammad Aflah Khan</i>, Deepak Garg, Krishna P. Gummadi, Evimaria Terzi 
   type: main
@@ -86,11 +94,3 @@
   talk_speaker: Bishwamittra Ghosh
   url: https://arxiv.org/abs/2604.23267
   description: "[Oral] ACL 2026 - The 64th Annual Meeting of the Association for Computational Linguistics (Top ~4.1% of submissions)"
-
-- project: "Fractional Rotation, Full Potential? Investigating Performance and Convergence of Partial RoPE"
-  role: <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Manish Gupta, Abhilasha Ravichander
-  duration: 2026
-  url: https://arxiv.org/abs/2603.11611
-  github: https://github.com/aflah02/Partial_RoPE_Analysis
-  type: preprint
-  description: Under Review
