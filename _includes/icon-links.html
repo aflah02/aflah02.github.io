@@ -38,6 +38,11 @@
   <li class="icon-link-item"><a target="_blank"  href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link" itemprop="sameAs" title="LinkedIn">{% include icons/icon-linkedin.html %}</a></li>
   {% endif %}
 
+  <!-- CV link -->
+  {% if site.resume_social_links.resume_cv_url %}
+  <li class="icon-link-item"><a target="_blank" href="{{ site.resume_social_links.resume_cv_url | relative_url }}" class="icon-link" itemprop="url" title="CV">{% include icons/icon-cv.html %}</a></li>
+  {% endif %}
+
   <!-- Instagram link -->
   {% if site.resume_social_links.resume_instagram_url %}
   <li class="icon-link-item"><a target="_blank"  href="{{ site.resume_social_links.resume_instagram_url }}" class="icon-link" itemprop="sameAs" title="Instagram">{% include icons/icon-instagram.html %}</a></li>
