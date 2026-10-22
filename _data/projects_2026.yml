@@ -96,7 +96,10 @@
   description: "[Oral] ACL 2026 - The 64th Annual Meeting of the Association for Computational Linguistics (Top ~4.1% of submissions)"
 
 - project: "Understanding the Interplay between Memorization and Learning in Large Language Models"
-  role: Bishwamittra Ghosh, Soumi Das, Qinyuan Wu, Mohammad Aflah Khan, Krishna P. Gummadi, Evimaria Terzi, Deepak Garg  
+  role: Bishwamittra Ghosh, Soumi Das, Qinyuan Wu,  <i>Mohammad Aflah Khan</i>, Krishna P. Gummadi, Evimaria Terzi, Deepak Garg  
   type: main
-  url:
-  description: "NeurIPS 2026 (Evaluations and Datasets Track) - The Fortieth Annual Conference on Neural Information Processing Systems"
+  url: https://arxiv.org/abs/2507.14777v2
+  github: https://github.com/bishwamittra/formallm
+  description: |
+    NeurIPS 2026 (Evaluations and Datasets Track) - The Fortieth Annual Conference on Neural Information Processing Systems
+    (An earlier version of this work was presented at MemFM, ICML 2025)
